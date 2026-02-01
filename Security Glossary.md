@@ -1,681 +1,650 @@
-A list of Key Information Security Terms for Software and Hardware. **Sources:** [NIST Federal Information Processing Standards (FIPS)](https://csrc.nist.gov/publications/fips), the [Special Publication (SP) 800 series](https://csrc.nist.gov/publications/sp), [NIST Interagency Reports (NISTIRs)](https://csrc.nist.gov/publications/nistir), and from the [Committee for National Security Systems Instruction 4009 (CNSSI-4009)](https://www.cnss.gov/CNSS/issuances/Instructions.cfm).
+소프트웨어 및 하드웨어를 위한 주요 정보 보안 용어 목록입니다. **출처:** [NIST 연방 정보 처리 표준(FIPS)](https://csrc.nist.gov/publications/fips), [특별 간행물(SP) 800 시리즈](https://csrc.nist.gov/publications/sp), [NIST 기관간 보고서(NISTIRs)](https://csrc.nist.gov/publications/nistir), 그리고 [국가 보안 시스템 위원회 지침 4009(CNSSI-4009)](https://www.cnss.gov/CNSS/issuances/Instructions.cfm).
 
 
 A
 
-Access – Ability and means to communicate with or otherwise interact with a system, to use system resources to handle information, to gain knowledge of the information the system contains, or to control system components and functions.
+접근(Access) - 시스템과 통신하거나 상호작용하는 능력과 수단, 정보를 처리하기 위해 시스템 자원을 사용하는 것, 시스템이 포함하는 정보에 대한 지식을 얻는 것, 또는 시스템 구성요소와 기능을 제어하는 것.
 SOURCE: CNSSI-4009
 
-Access Authority – An entity responsible for monitoring and granting access privileges for other authorized entities.
+접근 권한(Access Authority) - 다른 인가된 엔티티에 대한 접근 권한을 모니터링하고 부여하는 책임이 있는 엔티티.
 SOURCE: CNSSI-4009
 
-Access Control – The process of granting or denying specific requests to: 1) obtain and use information and related information processing services; and 2) enter specific physical facilities (e.g., federal buildings, military establishments, border crossing entrances).
+접근 제어(Access Control) - 다음에 대한 특정 요청을 승인하거나 거부하는 프로세스: 1) 정보 및 관련 정보 처리 서비스를 획득하고 사용하는 것; 그리고 2) 특정 물리적 시설(예: 연방 건물, 군사 시설, 국경 출입구)에 들어가는 것.
 SOURCE: FIPS 201; CNSSI-4009
 
-Access Control List (ACL) –
- * 1. A list of permissions associated with an object. The list specifies who or what is allowed to access the object and what operations are allowed to be performed on the object.
- * 2. A mechanism that implements access control for a system resource by enumerating the system entities that are permitted to access the resource and stating, either implicitly or explicitly, the access modes granted to each entity.
+접근 제어 목록(ACL) -
+ * 1. 객체와 관련된 권한 목록. 이 목록은 누가 또는 무엇이 객체에 접근할 수 있는지, 그리고 객체에서 어떤 작업을 수행할 수 있는지를 명시합니다.
+ * 2. 시스템 자원에 접근이 허용된 시스템 엔티티를 열거하고, 각 엔티티에 부여된 접근 모드를 명시적으로 또는 암묵적으로 표시하여 시스템 자원에 대한 접근 제어를 구현하는 메커니즘.
 SOURCE: CNSSI-4009
 
-Access Control Lists (ACLs) – A register of:
-  * 1. users (including groups, machines, processes) who have been given permission to use a particular system resource, and
-  * 2. the types of access they have been permitted.
+접근 제어 목록(ACLs) - 다음의 등록부:
+  * 1. 특정 시스템 자원을 사용할 수 있는 권한이 부여된 사용자(그룹, 머신, 프로세스 포함), 그리고
+  * 2. 허용된 접근 유형.
 SOURCE: SP 800-12
 
-Access Control Mechanism – Security safeguards (i.e., hardware and software features, physical controls, operating procedures, management procedures, and various combinations of these) designed to detect and deny unauthorized
-access and permit authorized access to an information system.
+접근 제어 메커니즘(Access Control Mechanism) - 무단 접근을 탐지하고 거부하며 인가된 접근을 허용하도록 설계된 보안 보호장치(즉, 하드웨어 및 소프트웨어 기능, 물리적 통제, 운영 절차, 관리 절차, 그리고 이들의 다양한 조합).
 SOURCE: CNSSI-4009
 
-Access Level – A category within a given security classification limiting entry or
-system connectivity to only authorized persons.
+접근 수준(Access Level) - 인가된 사람에게만 입장이나 시스템 연결을 제한하는 주어진 보안 분류 내의 범주.
 SOURCE: CNSSI-4009
 
-Access List – Roster of individuals authorized admittance to a controlled area.
+접근 목록(Access List) - 통제 구역에 입장이 허가된 개인 명단.
 SOURCE: CNSSI-4009
 
-Access Point – A device that logically connects wireless client devices operating in infrastructure to one another and provides access to a distribution system, if connected, which is typically an organization’s enterprise wired network.
+액세스 포인트(Access Point) - 인프라에서 작동하는 무선 클라이언트 장치들을 논리적으로 서로 연결하고, 연결된 경우 배포 시스템(일반적으로 조직의 기업 유선 네트워크)에 대한 접근을 제공하는 장치.
 SOURCE: SP 800-48; SP 800-121
 
-Access Profile – Association of a user with a list of protected objects the user may access.
+접근 프로필(Access Profile) - 사용자가 접근할 수 있는 보호된 객체 목록과 사용자의 연결.
 SOURCE: CNSSI-4009
 
-Access Type – Privilege to perform action on an object. Read, write, execute, append, modify, delete, and create are examples of access types. 
+접근 유형(Access Type) - 객체에서 작업을 수행할 수 있는 권한. 읽기, 쓰기, 실행, 추가, 수정, 삭제, 생성은 접근 유형의 예입니다.
 SOURCE: CNSSI-4009
 
-Activation Data – Private data, other than keys, that are required to access cryptographic modules.
+활성화 데이터(Activation Data) - 암호화 모듈에 접근하기 위해 필요한, 키 이외의 개인 데이터.
 SOURCE: SP 800-32
 
-Active Attack – An attack that alters a system or data.
+능동적 공격(Active Attack) - 시스템이나 데이터를 변경하는 공격.
 SOURCE: CNSSI-4009
 
-Active Content – Software in various forms that is able to automatically carry out or trigger actions on a computer platform without the intervention of a user.
+액티브 콘텐츠(Active Content) - 사용자의 개입 없이 컴퓨터 플랫폼에서 자동으로 작업을 수행하거나 트리거할 수 있는 다양한 형태의 소프트웨어.
 SOURCE: CNSSI-4009
 
-Active Security Testing – Security testing that involves direct interaction with a target, such as sending packets to a target.
+능동적 보안 테스트(Active Security Testing) - 대상에 패킷을 보내는 것과 같이 대상과 직접 상호작용하는 보안 테스트.
 SOURCE: SP 800-115
 
-Advanced Encryption Standard – (AES) The Advanced Encryption Standard specifies a U.S. government-approved cryptographic algorithm that can be used to protect electronic data. The AES algorithm is a symmetric block cipher that can encrypt (encipher) and decrypt (decipher) information. This standard specifies the Rijndael algorithm, a symmetric block cipher that can process data blocks of 128 bits, using cipher keys with lengths of 128, 192, and 256 bits.
+고급 암호화 표준(AES) - 고급 암호화 표준은 전자 데이터를 보호하는 데 사용할 수 있는 미국 정부 승인 암호화 알고리즘을 명시합니다. AES 알고리즘은 정보를 암호화(암호화)하고 복호화(해독)할 수 있는 대칭 블록 암호입니다. 이 표준은 128비트 데이터 블록을 처리할 수 있고 128, 192, 256비트 길이의 암호 키를 사용하는 대칭 블록 암호인 Rijndael 알고리즘을 명시합니다.
 SOURCE: FIPS 197
 
 B
 
-Blacklisting – The process of the system invalidating a user ID based on the user’s inappropriate actions. A blacklisted user ID cannot be used to log on to the system, even with the correct authenticator. Blacklisting and lifting of a blacklisting are both security-relevant events. Blacklisting also applies to blocks placed against IP addresses to prevent inappropriate or unauthorized use of Internet resources.
+블랙리스팅(Blacklisting) - 사용자의 부적절한 행동에 따라 시스템이 사용자 ID를 무효화하는 프로세스. 블랙리스트에 등록된 사용자 ID는 올바른 인증자를 가지고 있더라도 시스템에 로그온하는 데 사용할 수 없습니다. 블랙리스팅과 블랙리스팅 해제는 모두 보안 관련 이벤트입니다. 블랙리스팅은 또한 인터넷 자원의 부적절하거나 무단 사용을 방지하기 위해 IP 주소에 대해 배치된 차단에도 적용됩니다.
 SOURCE: CNSSI-4009
 
-Blue Team –
- * 1. The group responsible for defending an enterprise’s use of
-information systems by maintaining its security posture against a
-group of mock attackers (i.e., the Red Team). Typically the Blue
-Team and its supporters must defend against real or simulated
-attacks 1) over a significant period of time, 2) in a representative
-operational context (e.g., as part of an operational exercise), and 3)
-according to rules established and monitored with the help of a
-neutral group refereeing the simulation or exercise (i.e., the White
-Team).
- * 2. The term Blue Team is also used for defining a group of
-individuals that conduct operational network vulnerability
-evaluations and provide mitigation techniques to customers who have
-a need for an independent technical review of their network security
-posture. The Blue Team identifies security threats and risks in the
-operating environment, and in cooperation with the customer,
-analyzes the network environment and its current state of security
-readiness. Based on the Blue Team findings and expertise,
-they provide recommendations that integrate into an overall
-community security solution to increase the customer's cyber security
-readiness posture. Often times a Blue Team is employed by itself or
-prior to a Red Team employment to ensure that the customer's
-networks are as secure as possible before having the Red Team test
-the systems.
+블루팀(Blue Team) -
+ * 1. 가상의 공격자 그룹(즉, 레드팀)에 대해 보안 태세를 유지함으로써 기업의 정보 시스템 사용을 방어하는 책임이 있는 그룹. 일반적으로 블루팀과 그 지원자들은 1) 상당한 기간 동안, 2) 대표적인 운영 맥락에서(예: 운영 훈련의 일부로), 그리고 3) 시뮬레이션이나 훈련을 심판하는 중립 그룹(즉, 화이트팀)의 도움으로 수립되고 모니터링되는 규칙에 따라 실제 또는 시뮬레이션된 공격에 대해 방어해야 합니다.
+ * 2. 블루팀이라는 용어는 또한 운영 네트워크 취약성 평가를 수행하고 네트워크 보안 태세에 대한 독립적인 기술 검토가 필요한 고객에게 완화 기술을 제공하는 개인 그룹을 정의하는 데에도 사용됩니다. 블루팀은 운영 환경에서 보안 위협과 위험을 식별하고, 고객과 협력하여 네트워크 환경과 현재 보안 준비 상태를 분석합니다. 블루팀의 발견과 전문 지식을 바탕으로, 그들은 고객의 사이버 보안 준비 태세를 높이기 위한 전체 커뮤니티 보안 솔루션에 통합되는 권장 사항을 제공합니다. 종종 블루팀은 단독으로 또는 레드팀 투입 전에 고객의 네트워크가 가능한 한 안전한지 확인하기 위해 레드팀이 시스템을 테스트하기 전에 고용됩니다.
 SOURCE: CNSSI-4009
 
-Body of Evidence (BoE) – The set of data that documents the information system’s adherence to the security controls applied. The BoE will include a Requirements Verification Traceability Matrix (RVTM) delineating where the selected security controls are met and evidence to that fact can be found. The BoE content required by an Authorizing Official will be adjusted according to the impact levels selected.
+증거 문서(BoE) - 정보 시스템이 적용된 보안 통제를 준수함을 문서화하는 데이터 집합. 증거 문서에는 선택된 보안 통제가 충족되는 위치와 그 사실에 대한 증거를 찾을 수 있는 위치를 설명하는 요구사항 검증 추적 매트릭스(RVTM)가 포함됩니다. 인가 담당자가 요구하는 증거 문서 내용은 선택된 영향 수준에 따라 조정됩니다.
 SOURCE: CNSSI-4009
 
-Boundary – Physical or logical perimeter of a system.
+경계(Boundary) - 시스템의 물리적 또는 논리적 경계.
 SOURCE: CNSSI-4009
 
 C
 
-Capstone Policies – Those policies that are developed by governing or coordinating institutions of Health Information Exchanges (HIEs). They provide overall requirements and guidance for protecting health information within those HIEs. Capstone Policies must address the requirements imposed by: (1) all laws, regulations, and guidelines at the federal, state, and local levels; (2) business needs; and (3) policies at the institutional and HIE levels.
+상위 정책(Capstone Policies) - 의료정보교환(HIE)의 관리 또는 조정 기관에서 개발한 정책. 이러한 HIE 내에서 건강 정보를 보호하기 위한 전반적인 요구사항과 지침을 제공합니다. 상위 정책은 다음에 의해 부과된 요구사항을 다루어야 합니다: (1) 연방, 주 및 지방 수준의 모든 법률, 규정 및 지침; (2) 비즈니스 요구; 그리고 (3) 기관 및 HIE 수준의 정책.
 SOURCE: NISTIR-7497
 
-Capture – The method of taking a biometric sample from an end user.
+캡처(Capture) - 최종 사용자로부터 생체 인식 샘플을 수집하는 방법.
 Source: FIPS 201
 
-Certificate Management – Process whereby certificates (as defined above) are generated, stored, protected, transferred, loaded, used, and destroyed.
+인증서 관리(Certificate Management) - 인증서(위에서 정의된 바와 같이)가 생성, 저장, 보호, 전송, 로드, 사용 및 파기되는 프로세스.
 SOURCE: CNSSI-4009
 
-Certificate Management Authority – A Certification Authority (CA) or a Registration Authority (RA).
+인증서 관리 기관(Certificate Management Authority) - 인증 기관(CA) 또는 등록 기관(RA).
 SOURCE: SP 800-32
 
-Certificate Policy (CP) – A specialized form of administrative policy tuned to electronic transactions performed during certificate management. A Certificate Policy addresses all aspects associated with the generation, production, distribution, accounting, compromise recovery, and administration of digital certificates. Indirectly, a certificate policy can also govern the transactions conducted using a communications system protected by a certificate-based security system. By controlling critical certificate extensions, such policies and associated enforcement technology can support provision of the security services required by particular applications.
+인증서 정책(CP) - 인증서 관리 중 수행되는 전자 거래에 맞게 조정된 관리 정책의 특수한 형태. 인증서 정책은 디지털 인증서의 생성, 제작, 배포, 회계, 손상 복구 및 관리와 관련된 모든 측면을 다룹니다. 간접적으로, 인증서 정책은 인증서 기반 보안 시스템으로 보호되는 통신 시스템을 사용하여 수행되는 거래도 관할할 수 있습니다. 중요한 인증서 확장을 제어함으로써, 이러한 정책과 관련 시행 기술은 특정 애플리케이션에서 요구하는 보안 서비스 제공을 지원할 수 있습니다.
 SOURCE: CNSSI-4009; SP 800-32
 
-Certification Practice Statement – A statement of the practices that a Certification Authority employs in issuing, suspending, revoking, and renewing certificates and providing access to them, in accordance with specific requirements (i.e., requirements specified in this Certificate Policy, or requirements specified in a contract for services).
+인증 관행 진술(Certification Practice Statement) - 인증 기관이 특정 요구사항(즉, 이 인증서 정책에 명시된 요구사항 또는 서비스 계약에 명시된 요구사항)에 따라 인증서를 발급, 일시 중지, 폐지 및 갱신하고 인증서에 대한 접근을 제공할 때 사용하는 관행에 대한 진술.
 SOURCE: SP 800-32; CNSSI-4009
 
-Certification Test and Evaluation – Software and hardware security tests conducted during development of an information system.
+인증 테스트 및 평가(Certification Test and Evaluation) - 정보 시스템 개발 중에 수행되는 소프트웨어 및 하드웨어 보안 테스트.
 SOURCE: CNSSI-4009
 
-Checksum – Value computed on data to detect error or manipulation.
+체크섬(Checksum) - 오류나 조작을 감지하기 위해 데이터에 대해 계산된 값.
 SOURCE: CNSSI-4009
 
-Cloud Computing - A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service Provider interaction. This cloud model is composed of five essential characteristics, three service models, and four deployment models
-SOURCE(s): NISTIR 8006 under Cloud computing from NIST SP 800-145 - Adapted 
+클라우드 컴퓨팅(Cloud Computing) - 최소한의 관리 노력이나 서비스 제공자와의 상호작용으로 신속하게 프로비저닝하고 해제할 수 있는 구성 가능한 컴퓨팅 자원(예: 네트워크, 서버, 스토리지, 애플리케이션 및 서비스)의 공유 풀에 대한 편리한 온디맨드 네트워크 접근을 가능하게 하는 모델. 이 클라우드 모델은 다섯 가지 필수 특성, 세 가지 서비스 모델 및 네 가지 배포 모델로 구성됩니다.
+SOURCE(s): NISTIR 8006 under Cloud computing from NIST SP 800-145 - Adapted
 
-Cryptographic Initialization – Function used to set the state of a cryptographic logic prior to key generation, encryption, or other operating mode.
+암호화 초기화(Cryptographic Initialization) - 키 생성, 암호화 또는 기타 작동 모드 전에 암호화 로직의 상태를 설정하는 데 사용되는 기능.
 SOURCE: CNSSI-4009
 
-Cryptographic Key – A value used to control cryptographic operations, such as decryption, encryption, signature generation, or signature verification.
+암호화 키(Cryptographic Key) - 복호화, 암호화, 서명 생성 또는 서명 검증과 같은 암호화 작업을 제어하는 데 사용되는 값.
 SOURCE: SP 800-63
 
 D
 
-Data – A subset of information in an electronic format that allows it to be retrieved or transmitted.
+데이터(Data) - 검색 또는 전송을 가능하게 하는 전자 형식의 정보 부분집합.
 SOURCE: CNSSI-4009
 
-Data Aggregation – Compilation of individual data systems and data that could result in the totality of the information being classified, or classified at a higher level, or of beneficial use to an adversary.
+데이터 집계(Data Aggregation) - 개별 데이터 시스템과 데이터의 편집으로, 정보의 전체가 분류되거나 더 높은 수준으로 분류되거나 적에게 유용할 수 있는 결과를 초래할 수 있음.
 SOURCE: CNSSI-4009
 
-Data Origin Authentication – The process of verifying that the source of the data is as claimed and that the data has not been modified.
+데이터 출처 인증(Data Origin Authentication) - 데이터의 출처가 주장된 대로이며 데이터가 수정되지 않았음을 확인하는 프로세스.
 SOURCE: CNSSI-4009
 
-Data Security – Protection of data from unauthorized (accidental or intentional) modification, destruction, or disclosure.
+데이터 보안(Data Security) - 무단(우발적 또는 의도적) 수정, 파괴 또는 공개로부터 데이터를 보호하는 것.
 SOURCE: CNSSI-4009
 
-Data Transfer Device (DTD) – Fill device designed to securely store, transport, and transfer electronically both COMSEC and TRANSEC key, designed to be backward compatible with the previous generation of COMSEC common fill devices, and programmable to support modern mission systems.
+데이터 전송 장치(DTD) - COMSEC 및 TRANSEC 키를 안전하게 저장, 운송 및 전자적으로 전송하도록 설계되고, 이전 세대의 COMSEC 공통 충전 장치와 역호환되도록 설계되며, 현대 미션 시스템을 지원하도록 프로그래밍 가능한 충전 장치.
 SOURCE: CNSSI-4009
 
-Denial of Service (DoS) – The prevention of authorized access to resources or the delaying of time-critical operations. (Time-critical may be milliseconds or it may be hours, depending upon the service provided.)
+서비스 거부(DoS) - 인가된 자원에 대한 접근 방지 또는 시간에 민감한 작업의 지연. (시간에 민감함은 제공되는 서비스에 따라 밀리초에서 시간까지 다양할 수 있습니다.)
 SOURCE: CNSSI-4009
 
-Differential Power Analysis – An analysis of the variations of the electrical power consumption of a cryptographic module, using advanced statistical methods and/or other techniques, for the purpose of extracting information correlated to cryptographic keys used in a cryptographic algorithm.
+차분 전력 분석(Differential Power Analysis) - 암호화 알고리즘에 사용된 암호화 키와 관련된 정보를 추출하기 위해 고급 통계 방법 및/또는 기타 기술을 사용하여 암호화 모듈의 전력 소비 변동을 분석하는 것.
 SOURCE: FIPS 140-2
 
-Digital Evidence – Electronic information stored or transferred in digital form.
+디지털 증거(Digital Evidence) - 디지털 형식으로 저장되거나 전송된 전자 정보.
 SOURCE: SP 800-72
 
-Digital Forensics – The application of science to the identification, collection, examination, and analysis of data while preserving the integrity of the information and maintaining a strict chain of custody for the data.
+디지털 포렌식(Digital Forensics) - 정보의 무결성을 유지하고 데이터에 대한 엄격한 관리 연속성을 유지하면서 데이터의 식별, 수집, 검사 및 분석에 과학을 적용하는 것.
 SOURCE: SP 800-86
 
-Digital Signature – An asymmetric key operation where the private key is used to digitally sign data and the public key is used to verify the signature. Digital signatures provide authenticity protection, integrity protection, and non-repudiation.
+디지털 서명(Digital Signature) - 개인 키가 데이터에 디지털 서명하는 데 사용되고 공개 키가 서명을 검증하는 데 사용되는 비대칭 키 작업. 디지털 서명은 진정성 보호, 무결성 보호 및 부인 방지를 제공합니다.
 SOURCE: SP 800-63
 
-Disaster Recovery Plan (DRP) – A written plan for recovering one or more information systems at an alternate facility in response to a major hardware or software failure or destruction of facilities.
+재해 복구 계획(DRP) - 주요 하드웨어 또는 소프트웨어 장애 또는 시설 파괴에 대응하여 대체 시설에서 하나 이상의 정보 시스템을 복구하기 위한 서면 계획.
 SOURCE: SP 800-34
 
 E
 
-Embedded Cryptographic System – Cryptosystem performing or controlling a function as an integral element of a larger system or subsystem.
+내장형 암호화 시스템(Embedded Cryptographic System) - 더 큰 시스템 또는 하위 시스템의 통합 요소로서 기능을 수행하거나 제어하는 암호 시스템.
 SOURCE: CNSSI-4009
 
-Embedded Cryptography - Cryptography engineered into an equipment or system whose basic function is not cryptographic.
+내장형 암호화(Embedded Cryptography) - 기본 기능이 암호화가 아닌 장비나 시스템에 엔지니어링된 암호화.
 SOURCE: CNSSI-4009
 
-Encipher – Convert plain text to cipher text by means of a cryptographic system.
+암호화(Encipher) - 암호화 시스템을 통해 평문을 암호문으로 변환하는 것.
 SOURCE: CNSSI-4009
 
-Encode – Convert plain text to cipher text by means of a code.
+부호화(Encode) - 코드를 사용하여 평문을 암호문으로 변환하는 것.
 SOURCE: CNSSI-4009
 
-Encrypt – Generic term encompassing encipher and encode.
+암호화(Encrypt) - 암호화와 부호화를 포괄하는 일반 용어.
 SOURCE: CNSSI-4009
 
-Encrypted Key – A cryptographic key that has been encrypted using an Approved security function with a key encrypting key, a PIN, or a password in order to disguise the value of the underlying plaintext key.
+암호화된 키(Encrypted Key) - 기본 평문 키의 값을 숨기기 위해 키 암호화 키, PIN 또는 비밀번호와 함께 승인된 보안 기능을 사용하여 암호화된 암호화 키.
 SOURCE: FIPS 140-2
 
-Encrypted Network – A network on which messages are encrypted (e.g., using DES, AES, or other appropriate algorithms) to prevent reading by unauthorized parties.
+암호화된 네트워크(Encrypted Network) - 무단 당사자의 읽기를 방지하기 위해 메시지가 암호화되는(예: DES, AES 또는 기타 적절한 알고리즘 사용) 네트워크.
 SOURCE: SP 800-32
 
-Encryption – Conversion of plaintext to ciphertext through the use of a cryptographic algorithm.
+암호화(Encryption) - 암호화 알고리즘을 사용하여 평문을 암호문으로 변환하는 것.
 SOURCE: FIPS 185
 
-End-to-End Encryption – Encryption of information at its origin and decryption at its intended destination without intermediate decryption.
+종단 간 암호화(End-to-End Encryption) - 출발지에서 정보를 암호화하고 의도된 목적지에서 중간 복호화 없이 복호화하는 것.
 SOURCE: CNSSI-4009
 
-End-to-End Security – Safeguarding information in an information system from point of origin to point of destination.
+종단 간 보안(End-to-End Security) - 정보 시스템에서 출발지에서 목적지까지 정보를 보호하는 것.
 SOURCE: CNSSI-4009
 
 F
 
-[Federal Risk and Authorization Management Program (FedRAMP)](https://www.gsa.gov/technology/government-it-initiatives/fedramp) is a government-wide program that provides a standardized approach to security assessment, authorization, and continuous monitoring for cloud products and services. FedRAMP empowers agencies to use modern cloud technologies, with emphasis on security and protection of federal information, and helps accelerate the adoption of secure, cloud solutions.
+[연방 위험 및 인가 관리 프로그램(FedRAMP)](https://www.gsa.gov/technology/government-it-initiatives/fedramp)은 클라우드 제품 및 서비스에 대한 보안 평가, 인가 및 지속적인 모니터링에 대한 표준화된 접근 방식을 제공하는 정부 차원의 프로그램입니다. FedRAMP는 연방 정보의 보안과 보호를 강조하면서 기관들이 현대적인 클라우드 기술을 사용할 수 있도록 하고, 안전한 클라우드 솔루션의 채택을 가속화합니다.
 
-[Federal Information Security Management Act (FISMA)](https://csrc.nist.gov/topics/laws-and-regulations/laws/fisma)  is a United States federal law that defines a comprehensive framework to protect government information, operations, and assets against natural and manmade threats. This risk management framework was signed into law as part of the Electronic Government Act of 2002. Since 2002, FISMA's scope has widened to apply to state agencies that administer federal programs, or private businesses and service providers that hold a contract with the U.S. government.
+[연방 정보 보안 관리법(FISMA)](https://csrc.nist.gov/topics/laws-and-regulations/laws/fisma)은 자연적 및 인위적 위협으로부터 정부 정보, 운영 및 자산을 보호하기 위한 포괄적인 프레임워크를 정의하는 미국 연방법입니다. 이 위험 관리 프레임워크는 2002년 전자 정부법의 일부로 법률에 서명되었습니다. 2002년 이후, FISMA의 범위는 연방 프로그램을 관리하는 주 기관 또는 미국 정부와 계약을 맺은 민간 기업 및 서비스 제공자에게까지 확대되었습니다.
 
-False Positive – An alert that incorrectly indicates that malicious activity is occurring.
+위양성(False Positive) - 악의적인 활동이 발생하고 있다고 잘못 나타내는 경고.
 SOURCE: SP 800-61
 
-False Rejection – In biometrics, the instance of a security system failing to verify or identify an authorized person. It does not necessarily indicate a flaw in the biometric system; for example, in a fingerprint-based system, an incorrectly aligned finger on the scanner or dirt on the scanner can result in the scanner misreading the fingerprint, causing a false rejection of the authorized user.
+위거부(False Rejection) - 생체 인식에서, 보안 시스템이 인가된 사람을 확인하거나 식별하지 못하는 경우. 이것이 반드시 생체 인식 시스템의 결함을 나타내는 것은 아닙니다; 예를 들어, 지문 기반 시스템에서 스캐너에 손가락이 잘못 정렬되거나 스캐너에 먼지가 묻으면 스캐너가 지문을 잘못 읽어 인가된 사용자의 위거부를 유발할 수 있습니다.
 SOURCE: CNSSI-4009
 
-Federal Information Processing Standard (FIPS) – A standard for adoption and use by federal departments and agencies that has been developed within the Information Technology Laboratory and published by the National Institute of Standards and Technology, a part of the U.S. Department of Commerce. A FIPS covers some topic in information technology in order to achieve a common level of quality or some level of interoperability.
+연방 정보 처리 표준(FIPS) - 정보 기술 연구소 내에서 개발되고 미국 상무부의 일부인 국립표준기술연구소에서 발행한, 연방 부처 및 기관에서 채택하고 사용하기 위한 표준. FIPS는 정보 기술의 공통 품질 수준 또는 상호 운용성 수준을 달성하기 위해 정보 기술의 일부 주제를 다룹니다.
 SOURCE: FIPS 201
 
-File Encryption – The process of encrypting individual files on a storage medium and permitting access to the encrypted data only after proper authentication is provided.
+파일 암호화(File Encryption) - 저장 매체의 개별 파일을 암호화하고 적절한 인증이 제공된 후에만 암호화된 데이터에 대한 접근을 허용하는 프로세스.
 SOURCE: SP 800-111
 
-File Name Anomaly –
- * 1. A mismatch between the internal file header and its external
-extension.
- * 2. A file name inconsistent with the content of the file (e.g., renaming
-a graphics file with a non-graphical extension.
+파일명 이상(File Name Anomaly) -
+ * 1. 내부 파일 헤더와 외부 확장자 간의 불일치.
+ * 2. 파일 내용과 일치하지 않는 파일명(예: 그래픽 파일의 이름을 비그래픽 확장자로 변경).
 SOURCE: SP 800-72
 
-File Protection – Aggregate of processes and procedures designed to inhibit unauthorized access, contamination, elimination, modification, or destruction of a file or any of its contents.
+파일 보호(File Protection) - 파일 또는 그 내용에 대한 무단 접근, 오염, 제거, 수정 또는 파괴를 방지하도록 설계된 프로세스 및 절차의 집합.
 SOURCE: CNSSI-4009
 
-File Security – Means by which access to computer files is limited to authorized users only.
+파일 보안(File Security) - 컴퓨터 파일에 대한 접근을 인가된 사용자에게만 제한하는 수단.
 SOURCE: CNSSI-4009
 
-Firewall – A gateway that limits access between networks in accordance with local security policy.
+방화벽(Firewall) - 로컬 보안 정책에 따라 네트워크 간의 접근을 제한하는 게이트웨이.
 SOURCE: SP 800-32
 
-Forensics – The practice of gathering, retaining, and analyzing computer-related data for investigative purposes in a manner that maintains the integrity of the data.
+포렌식(Forensics) - 데이터의 무결성을 유지하는 방식으로 조사 목적을 위해 컴퓨터 관련 데이터를 수집, 보관 및 분석하는 관행.
 SOURCE: CNSSI-4009
 
 G
 
-Gateway – Interface providing compatibility between networks by converting transmission speeds, protocols, codes, or security measures.
+게이트웨이(Gateway) - 전송 속도, 프로토콜, 코드 또는 보안 조치를 변환하여 네트워크 간의 호환성을 제공하는 인터페이스.
 SOURCE: CNSSI-4009
 
 H
 
-Handshaking Procedures – Dialogue between two information systems for synchronizing, identifying, and authenticating themselves to one another.
+핸드셰이킹 절차(Handshaking Procedures) - 두 정보 시스템이 동기화, 식별 및 서로에 대한 인증을 위해 수행하는 대화.
 SOURCE: CNSSI-4009
 
-Hard Copy Key – Physical keying material, such as printed key lists, punched or printed key tapes, or programmable, read-only memories (PROM).
+하드 카피 키(Hard Copy Key) - 인쇄된 키 목록, 펀치된 또는 인쇄된 키 테이프, 또는 프로그래밍 가능한 읽기 전용 메모리(PROM)와 같은 물리적 키 자료.
 SOURCE: CNSSI-4009
 
-Hardening – Configuring a host’s operating systems and applications to reduce the host’s security weaknesses.
+강화(Hardening) - 호스트의 보안 취약점을 줄이기 위해 호스트의 운영 체제와 애플리케이션을 구성하는 것.
 SOURCE: SP 800-123
 
-Hardware – The physical components of an information system. 
+하드웨어(Hardware) - 정보 시스템의 물리적 구성요소.
 SOURCE: CNSSI-4009
 
-High Availability – A failover feature to ensure availability during device or component interruptions.
+고가용성(High Availability) - 장치 또는 구성요소 중단 시 가용성을 보장하는 장애 조치 기능.
 SOURCE: SP 800-113
 
 I
 
-Identification – The process of verifying the identity of a user, process, or device, usually as a prerequisite for granting access to resources in an IT system.
+식별(Identification) - 일반적으로 IT 시스템에서 자원에 대한 접근을 부여하기 위한 전제 조건으로 사용자, 프로세스 또는 장치의 신원을 확인하는 프로세스.
 SOURCE: SP 800-47
 
-Identifier – Unique data used to represent a person’s identity and associated attributes. A name or a card number are examples of identifiers.
+식별자(Identifier) - 사람의 신원과 관련 속성을 나타내는 데 사용되는 고유 데이터. 이름이나 카드 번호가 식별자의 예입니다.
 SOURCE: FIPS 201
 
-Identity – A set of attributes that uniquely describe a person within a given context.
+신원(Identity) - 주어진 맥락에서 사람을 고유하게 설명하는 속성 집합.
 SOURCE: SP 800-63
 
-Identity – The set of physical and behavioral characteristics by which an individual is uniquely recognizable.
+신원(Identity) - 개인을 고유하게 인식할 수 있는 물리적 및 행동적 특성의 집합.
 SOURCE: FIPS 201
 
-Identity Token – Smart card, metal key, or other physical object used to authenticate identity.
+신원 토큰(Identity Token) - 신원을 인증하는 데 사용되는 스마트 카드, 금속 키 또는 기타 물리적 객체.
 SOURCE: CNSSI-4009
 
-Identity Validation – Tests enabling an information system to authenticate users or resources.
+신원 확인(Identity Validation) - 정보 시스템이 사용자 또는 자원을 인증할 수 있게 하는 테스트.
 SOURCE: CNSSI-4009
 
-Incident – A violation or imminent threat of violation of computer security policies, acceptable use policies, or standard security practices.
+인시던트(Incident) - 컴퓨터 보안 정책, 허용 가능한 사용 정책 또는 표준 보안 관행의 위반 또는 임박한 위반 위협.
 SOURCE: SP 800-61
 
-Intellectual Property – Creations of the mind such as musical, literary, and artistic works; inventions; and symbols, names, images, and designs used in commerce, including copyrights, trademarks, patents, and related rights. Under intellectual property law, the holder of one of these abstract “properties” has certain exclusive rights to the creative work, commercial symbol, or invention by which it is covered.
+지적 재산(Intellectual Property) - 음악, 문학 및 예술 작품과 같은 정신의 창작물; 발명; 그리고 저작권, 상표, 특허 및 관련 권리를 포함하여 상업에서 사용되는 기호, 이름, 이미지 및 디자인. 지적 재산법에 따라, 이러한 추상적 "재산" 중 하나의 보유자는 그것이 다루는 창작물, 상업적 기호 또는 발명에 대한 특정 독점권을 가집니다.
 SOURCE: CNSSI-4009
 
-Internet Protocol (IP) – Standard protocol for transmission of data from source to destinations in packet-switched communications networks and interconnected systems of such networks.
+인터넷 프로토콜(IP) - 패킷 교환 통신 네트워크 및 그러한 네트워크의 상호 연결 시스템에서 소스에서 목적지로 데이터를 전송하기 위한 표준 프로토콜.
 SOURCE: CNSSI-4009
 
-Intranet – A private network that is employed within the confines of a given enterprise (e.g., internal to a business or agency).
+인트라넷(Intranet) - 주어진 기업 범위 내에서(예: 비즈니스 또는 기관 내부) 사용되는 개인 네트워크.
 SOURCE: CNSSI-4009
 
-Intrusion – Unauthorized act of bypassing the security mechanisms of a system.
+침입(Intrusion) - 시스템의 보안 메커니즘을 우회하는 무단 행위.
 SOURCE: CNSSI-4009
 
-Intrusion Detection Systems (IDS) – Hardware or software product that gathers and analyzes information from various areas within a computer or a network to identify possible security breaches, which include both intrusions (attacks from outside the organizations) and misuse (attacks from within the organizations.)
+침입 탐지 시스템(IDS) - 조직 외부에서의 공격(침입)과 조직 내부에서의 공격(오용)을 모두 포함하는 가능한 보안 위반을 식별하기 위해 컴퓨터 또는 네트워크 내의 다양한 영역에서 정보를 수집하고 분석하는 하드웨어 또는 소프트웨어 제품.
 SOURCE: CNSSI-4009
 
 J
 
-Jamming – An attack in which a device is used to emit electromagnetic energy on a wireless network’s frequency to make it unusable.
+재밍(Jamming) - 무선 네트워크의 주파수에 전자기 에너지를 방출하여 네트워크를 사용할 수 없게 만드는 장치를 사용하는 공격.
 SOURCE: SP 800-48
 
 K
 
-Kerberos – A means of verifying the identities of principals on an open network. It accomplishes this without relying on the authentication, trustworthiness, or physical security of hosts while assuming all packets can be read, modified and inserted at will. It uses a trust broker model and symmetric cryptography to provide authentication and authorization of users and systems on the network.
+커버로스(Kerberos) - 개방형 네트워크에서 주체의 신원을 확인하는 수단. 인증, 신뢰성 또는 호스트의 물리적 보안에 의존하지 않으면서 모든 패킷이 자유롭게 읽히고, 수정되고, 삽입될 수 있다고 가정하여 이를 수행합니다. 신뢰 브로커 모델과 대칭 암호화를 사용하여 네트워크에서 사용자와 시스템의 인증 및 권한 부여를 제공합니다.
 SOURCE: SP 800-95
 
-Key – A value used to control cryptographic operations, such as decryption, encryption, signature generation, or signature verification.
+키(Key) - 복호화, 암호화, 서명 생성 또는 서명 검증과 같은 암호화 작업을 제어하는 데 사용되는 값.
 SOURCE: SP 800-63
 
-Key Logger – A program designed to record which keys are pressed on a computer keyboard used to obtain passwords or encryption keys and thus bypass other security measures.
+키로거(Key Logger) - 비밀번호나 암호화 키를 획득하여 다른 보안 조치를 우회하기 위해 컴퓨터 키보드에서 어떤 키가 눌리는지 기록하도록 설계된 프로그램.
 SOURCE: SP 800-82
 
 L
 
-Least Privilege – The security objective of granting users only those accesses they need to perform their official duties.
+최소 권한(Least Privilege) - 사용자에게 공식 업무를 수행하는 데 필요한 접근만 부여하는 보안 목표.
 SOURCE: SP 800-12
 
-Level of Protection – Extent to which protective measures, techniques, and procedures must be applied to information systems and networks based on risk, threat, vulnerability, system interconnectivity considerations, and information assurance needs. Levels of protection are: 
- * 1. Basic: information systems and networks requiring implementation of standard minimum security countermeasures. 
- * 2. Medium: information systems and networks requiring layering of additional safeguards above the standard minimum security countermeasures. 
- * 3. High: information systems and networks requiring the most stringent protection and rigorous security countermeasures.
+보호 수준(Level of Protection) - 위험, 위협, 취약성, 시스템 상호 연결성 고려사항 및 정보 보증 요구에 따라 정보 시스템 및 네트워크에 적용해야 하는 보호 조치, 기술 및 절차의 범위. 보호 수준은 다음과 같습니다:
+ * 1. 기본: 표준 최소 보안 대응책 구현이 필요한 정보 시스템 및 네트워크.
+ * 2. 중간: 표준 최소 보안 대응책 위에 추가적인 보호 장치 계층이 필요한 정보 시스템 및 네트워크.
+ * 3. 높음: 가장 엄격한 보호와 철저한 보안 대응책이 필요한 정보 시스템 및 네트워크.
 SOURCE: CNSSI-4009
 
-Likelihood of Occurrence – In Information Assurance risk analysis, a weighted factor based on a subjective analysis of the probability that a given threat is capable of exploiting a given vulnerability.
+발생 가능성(Likelihood of Occurrence) - 정보 보증 위험 분석에서, 주어진 위협이 주어진 취약성을 악용할 수 있는 확률에 대한 주관적 분석을 기반으로 한 가중 요소.
 SOURCE: CNSSI-4009
 
 M
 
-Malicious Code – Software or firmware intended to perform an unauthorized process that will have adverse impact on the confidentiality, integrity, or availability of an information system. A virus, worm, Trojan horse, or other code-based entity that infects a host. Spyware and some forms of adware are also examples of malicious code.
+악성 코드(Malicious Code) - 정보 시스템의 기밀성, 무결성 또는 가용성에 악영향을 미칠 무단 프로세스를 수행하도록 의도된 소프트웨어 또는 펌웨어. 호스트를 감염시키는 바이러스, 웜, 트로이 목마 또는 기타 코드 기반 엔티티. 스파이웨어 및 일부 형태의 애드웨어도 악성 코드의 예입니다.
 SOURCE: SP 800-53; CNSSI-4009
 
-Malware – A program that is inserted into a system, usually covertly, with the intent of compromising the confidentiality, integrity, or availability of the victim’s data, applications, or operating system or of otherwise annoying or disrupting the victim.
+맬웨어(Malware) - 피해자의 데이터, 애플리케이션 또는 운영 체제의 기밀성, 무결성 또는 가용성을 손상시키거나 그렇지 않으면 피해자를 괴롭히거나 방해하려는 의도로 일반적으로 은밀하게 시스템에 삽입되는 프로그램.
 SOURCE: SP 800-83
 
-Man-in-the-middle Attack (MitM) – A form of active wiretapping attack in which the attacker intercepts and selectively modifies communicated data to masquerade as one or more of the entities involved in a communication association.
+중간자 공격(MitM) - 공격자가 통신 연결에 관련된 하나 이상의 엔티티로 가장하기 위해 통신된 데이터를 가로채고 선택적으로 수정하는 능동적 도청 공격의 한 형태.
 SOURCE: CNSSI-4009
 
-Mandatory Access Control (MAC) – A means of restricting access to system resources based on the sensitivity (as represented by a label) of the information contained in the system resource and the formal authorization (i.e., clearance) of users to access information of such sensitivity.
+강제 접근 제어(MAC) - 시스템 자원에 포함된 정보의 민감도(레이블로 표시됨)와 그러한 민감도의 정보에 접근하기 위한 사용자의 공식 인가(즉, 허가)를 기반으로 시스템 자원에 대한 접근을 제한하는 수단.
 SOURCE: SP 800-44
 
-Mandatory Access Control – Access controls (which) are driven by the results of a comparison between the user’s trust level or clearance and the sensitivity designation of the information.
+강제 접근 제어(Mandatory Access Control) - 사용자의 신뢰 수준 또는 허가와 정보의 민감도 지정 간의 비교 결과에 의해 구동되는 접근 제어.
 SOURCE: FIPS 191
 
-Masquerading –When an unauthorized agent claims the identity of another agent, it is said to be masquerading.
+가장(Masquerading) - 무단 에이전트가 다른 에이전트의 신원을 주장할 때 가장하고 있다고 합니다.
 SOURCE: SP 800-19
 
-Multilevel Security (MLS) – A concept of processing information with different classifications and categories that simultaneously permits access by users with different security clearances and denies access to users who lack authorization.
+다중 수준 보안(MLS) - 서로 다른 분류와 범주의 정보를 처리하면서 동시에 서로 다른 보안 허가를 가진 사용자의 접근을 허용하고 인가가 없는 사용자의 접근을 거부하는 개념.
 SOURCE: CNSSI-4009
 
 N
 
-Needs Assessment (IT Security Awareness and Training) – A process that can be used to determine an organization’s awareness and training needs. The results of a needs assessment can provide justification to convince management to allocate adequate resources
-to meet the identified awareness and training needs.
+요구사항 평가(Needs Assessment, IT 보안 인식 및 훈련) - 조직의 인식 및 훈련 요구사항을 결정하는 데 사용할 수 있는 프로세스. 요구사항 평가의 결과는 식별된 인식 및 훈련 요구사항을 충족하기 위해 적절한 자원을 할당하도록 경영진을 설득하는 근거를 제공할 수 있습니다.
 SOURCE: SP 800-50
 
-Network – Information system(s) implemented with a collection of interconnected components. Such components may include routers,
-hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices.
+네트워크(Network) - 상호 연결된 구성요소 모음으로 구현된 정보 시스템. 이러한 구성요소에는 라우터, 허브, 케이블, 통신 컨트롤러, 키 배포 센터 및 기술 제어 장치가 포함될 수 있습니다.
 SOURCE: SP 800-53; CNSSI-4009
 
-Network Access – Access to an organizational information system by a user (or a process acting on behalf of a user) communicating through a network (e.g., local area network, wide area network, Internet).
+네트워크 접근(Network Access) - 네트워크(예: 근거리 통신망, 광역 통신망, 인터넷)를 통해 통신하는 사용자(또는 사용자를 대신하여 행동하는 프로세스)에 의한 조직 정보 시스템에 대한 접근.
 SOURCE: SP 800-53; CNSSI-4009
 
-Network Access Control (NAC) – A feature provided by some firewalls that allows access based on a user’s credentials and the results of health checks performed on the telework client device.
+네트워크 접근 제어(NAC) - 사용자의 자격 증명과 원격 근무 클라이언트 장치에서 수행된 상태 검사 결과를 기반으로 접근을 허용하는, 일부 방화벽에서 제공하는 기능.
 SOURCE: SP 800-41
 
-Network Address Translation (NAT) – A routing technology used by many firewalls to hide internal system addresses from an external network through use of an addressing schema.
+네트워크 주소 변환(NAT) - 주소 지정 체계를 사용하여 외부 네트워크로부터 내부 시스템 주소를 숨기기 위해 많은 방화벽에서 사용하는 라우팅 기술.
 SOURCE: SP 800-41
 
 O
 
-Object Identifier – A specialized formatted number that is registered with an internationally recognized standards organization. The unique alphanumeric/numeric identifier registered under the ISO registration standard to reference a specific object or object class. In the federal government PKI, they are used to uniquely identify each of the four policies and cryptographic algorithms supported.
+객체 식별자(Object Identifier) - 특정 객체 또는 객체 클래스를 참조하기 위해 국제적으로 인정된 표준 기관에 등록된 특수 형식의 번호. ISO 등록 표준에 따라 등록된 고유한 영숫자/숫자 식별자. 연방 정부 PKI에서는 네 가지 정책과 지원되는 암호화 알고리즘 각각을 고유하게 식별하는 데 사용됩니다.
 SOURCE: SP 800-32
 
-Open Storage – Any storage of classified national security information outside of approved containers. This includes classified information that is resident on information systems media and outside of an approved storage container, regardless of whether or not that media is in use (i.e., unattended operations).
+개방 저장(Open Storage) - 승인된 컨테이너 외부의 분류된 국가 안보 정보의 모든 저장. 여기에는 해당 미디어가 사용 중인지 여부(즉, 무인 작업)에 관계없이 정보 시스템 미디어에 상주하고 승인된 저장 컨테이너 외부에 있는 분류된 정보가 포함됩니다.
 SOURCE: CNSSI-4009
 
-Operating System (OS) Fingerprinting – Analyzing characteristics of packets sent by a target, such as packet headers or listening ports, to identify the operating system in use on the target.
+운영 체제(OS) 핑거프린팅 - 대상에서 사용 중인 운영 체제를 식별하기 위해 패킷 헤더나 리스닝 포트와 같이 대상이 보낸 패킷의 특성을 분석하는 것.
 SOURCE: SP 800-115
 
-Operations Code – Code composed largely of words and phrases suitable for general communications use.
+운영 코드(Operations Code) - 주로 일반 통신 사용에 적합한 단어와 구문으로 구성된 코드.
 SOURCE: CNSSI-4009
 
-Organization – A federal agency, or, as appropriate, any of its operational elements.
+조직(Organization) - 연방 기관 또는 적절한 경우 그 운영 요소 중 하나.
 SOURCE: FIPS 200
 
-Overwrite Procedure – A software process that replaces data previously stored on storage media with a predetermined set of meaningless data or random patterns.
+덮어쓰기 절차(Overwrite Procedure) - 저장 미디어에 이전에 저장된 데이터를 미리 정해진 의미 없는 데이터 또는 무작위 패턴으로 대체하는 소프트웨어 프로세스.
 SOURCE: CNSSI-4009
 
 P
 
-Packet Filter – A routing device that provides access control functionality for host addresses and communication sessions.
+패킷 필터(Packet Filter) - 호스트 주소와 통신 세션에 대한 접근 제어 기능을 제공하는 라우팅 장치.
 SOURCE: SP 800-41
 
-Packet Sniffer – Software that observes and records network traffic.
+패킷 스니퍼(Packet Sniffer) - 네트워크 트래픽을 관찰하고 기록하는 소프트웨어.
 SOURCE: CNSSI-4009
 
-Password – A protected character string used to authenticate the identity of a computer system user or to authorize access to system resources.
+비밀번호(Password) - 컴퓨터 시스템 사용자의 신원을 인증하거나 시스템 자원에 대한 접근을 승인하는 데 사용되는 보호된 문자열.
 SOURCE: FIPS 181
 
-Password Cracking – The process of recovering secret passwords stored in a computer system or transmitted over a network.
+비밀번호 크래킹(Password Cracking) - 컴퓨터 시스템에 저장되거나 네트워크를 통해 전송된 비밀 비밀번호를 복구하는 프로세스.
 SOURCE: SP 800-115
 
-Password Protected – The ability to protect a file using a password access control, protecting the data contents from being viewed with the appropriate viewer unless the proper password is entered.
+비밀번호 보호(Password Protected) - 비밀번호 접근 제어를 사용하여 파일을 보호하는 기능으로, 적절한 비밀번호를 입력하지 않으면 적절한 뷰어로 데이터 내용을 볼 수 없도록 보호합니다.
 SOURCE: SP 800-72
 
-Patch – An update to an operating system, application, or other software issued specifically to correct particular problems with the software.
+패치(Patch) - 소프트웨어의 특정 문제를 수정하기 위해 특별히 발행된 운영 체제, 애플리케이션 또는 기타 소프트웨어에 대한 업데이트.
 SOURCE: SP 800-123
 
-Payload – The input data to the CCM generation-encryption process that is both authenticated and encrypted.
+페이로드(Payload) - 인증되고 암호화되는 CCM 생성-암호화 프로세스에 대한 입력 데이터.
 SOURCE: SP 800-38C
 
-Penetration Testing – A test methodology in which assessors, using all available documentation (e.g., system design, source code, manuals) and working under specific constraints, attempt to circumvent the security features of an information system.
+침투 테스트(Penetration Testing) - 평가자가 모든 사용 가능한 문서(예: 시스템 설계, 소스 코드, 매뉴얼)를 사용하고 특정 제약 조건 하에서 작업하면서 정보 시스템의 보안 기능을 우회하려고 시도하는 테스트 방법론.
 SOURCE: SP 800-53A
 
-Personal Identification Number (PIN) – A secret that a claimant memorizes and uses to authenticate his or her identity. PINs are generally only decimal digits.
+개인 식별 번호(PIN) - 청구인이 암기하여 자신의 신원을 인증하는 데 사용하는 비밀. PIN은 일반적으로 10진수 숫자만 사용합니다.
 SOURCE: FIPS 201
 
-Phishing - A digital form of social engineering that uses authentic looking but bogus emails to request information from users or direct them to a fake Web site that requests information.
+피싱(Phishing) - 사용자에게 정보를 요청하거나 정보를 요청하는 가짜 웹 사이트로 유도하는 진정해 보이지만 가짜인 이메일을 사용하는 디지털 형태의 사회 공학.
 SOURCE: SP 800-115
 
-Plaintext – Data input to the Cipher or output from the Inverse Cipher.
+평문(Plaintext) - 암호에 대한 데이터 입력 또는 역암호로부터의 출력.
 SOURCE: FIPS 197
 
-Policy Mapping – Recognizing that, when a CA in one domain certifies a CA in another domain, a particular certificate policy in the second domain may be considered by the authority of the first domain to be equivalent (but not necessarily identical in all respects) to a particular certificate policy in the first domain.
+정책 매핑(Policy Mapping) - 한 도메인의 CA가 다른 도메인의 CA를 인증할 때, 두 번째 도메인의 특정 인증서 정책이 첫 번째 도메인의 권한에 의해 첫 번째 도메인의 특정 인증서 정책과 동등한 것으로(모든 면에서 반드시 동일하지는 않지만) 간주될 수 있음을 인식하는 것.
 SOURCE: SP 800-15
 
-Port – A physical entry or exit point of a cryptographic module that provides access to the module for physical signals, represented by logical information flows (physically separated ports do not share the same physical pin or wire).
+포트(Port) - 논리적 정보 흐름으로 표현되는 물리적 신호에 대한 모듈 접근을 제공하는 암호화 모듈의 물리적 입구 또는 출구 지점(물리적으로 분리된 포트는 동일한 물리적 핀이나 와이어를 공유하지 않음).
 SOURCE: FIPS 140-2
 
-Port Scanning – Using a program to remotely determine which ports on a system are open (e.g., whether systems allow connections through those ports).
+포트 스캐닝(Port Scanning) - 시스템에서 어떤 포트가 열려 있는지(예: 시스템이 해당 포트를 통한 연결을 허용하는지)를 원격으로 확인하기 위해 프로그램을 사용하는 것.
 SOURCE: CNSSI-4009
 
-Portal – A high-level remote access architecture that is based on a server that offers teleworkers access to one or more applications through a single centralized interface.
+포털(Portal) - 단일 중앙 집중식 인터페이스를 통해 원격 근무자에게 하나 이상의 애플리케이션에 대한 접근을 제공하는 서버를 기반으로 하는 고급 원격 접근 아키텍처.
 SOURCE: SP 800-46
 
-Privilege – A right granted to an individual, a program, or a process.
+권한(Privilege) - 개인, 프로그램 또는 프로세스에 부여된 권리.
 SOURCE: CNSSI-4009
 
-Privileged Accounts – Individuals who have access to set “access rights” for users on a given system. Sometimes referred to as system or network administrative accounts.
+권한 계정(Privileged Accounts) - 주어진 시스템에서 사용자에 대한 "접근 권한"을 설정할 수 있는 접근 권한을 가진 개인. 때로는 시스템 또는 네트워크 관리 계정이라고도 합니다.
 SOURCE: SP 800-12
 
-Probe – A technique that attempts to access a system to learn something about the system.
+탐사(Probe) - 시스템에 대해 무언가를 알아내기 위해 시스템에 접근을 시도하는 기술.
 SOURCE: CNSSI-4009
 
-Profiling – Measuring the characteristics of expected activity so that changes to it can be more easily identified.
+프로파일링(Profiling) - 예상 활동의 특성을 측정하여 그 변화를 더 쉽게 식별할 수 있도록 하는 것.
 SOURCE: SP 800-61; CNSSI-4009
 
-Protocol – Set of rules and formats, semantic and syntactic, permitting information systems to exchange information.
+프로토콜(Protocol) - 정보 시스템이 정보를 교환할 수 있게 하는 의미론적 및 구문론적 규칙과 형식의 집합.
 SOURCE: CNSSI-4009
 
-Protocol Data Unit – A unit of data specified in a protocol and consisting of protocol information and, possibly, user data.
+프로토콜 데이터 단위(Protocol Data Unit) - 프로토콜에 지정된 데이터 단위로, 프로토콜 정보와 가능하면 사용자 데이터로 구성됩니다.
 SOURCE: FIPS 188
 
-Protocol Entity – Entity that follows a set of rules and formats (semantic and syntactic) that determines the communication behavior of other entities.
+프로토콜 엔티티(Protocol Entity) - 다른 엔티티의 통신 행동을 결정하는 규칙과 형식(의미론적 및 구문론적) 집합을 따르는 엔티티.
 SOURCE: FIPS 188
 
-Proxy – A proxy is an application that “breaks” the connection between client and server. The proxy accepts certain types of traffic entering or leaving a network and processes it and forwards it. This effectively closes the straight path between the internal and external networks making it more difficult for an attacker to obtain internal addresses and other details of the organization’s internal network. Proxy servers are available for common Internet services; for example, a Hyper Text Transfer Protocol (HTTP) proxy used for Web access, and a Simple Mail Transfer Protocol (SMTP) proxy used for email.
+프록시(Proxy) - 프록시는 클라이언트와 서버 간의 연결을 "분리"하는 애플리케이션입니다. 프록시는 네트워크에 들어오거나 나가는 특정 유형의 트래픽을 수락하고 처리한 다음 전달합니다. 이것은 내부 및 외부 네트워크 간의 직접 경로를 효과적으로 차단하여 공격자가 조직의 내부 네트워크의 내부 주소 및 기타 세부 정보를 얻기 어렵게 만듭니다. 프록시 서버는 일반적인 인터넷 서비스에 사용할 수 있습니다; 예를 들어, 웹 접근에 사용되는 HTTP(Hyper Text Transfer Protocol) 프록시와 이메일에 사용되는 SMTP(Simple Mail Transfer Protocol) 프록시가 있습니다.
 SOURCE: SP 800-44
 
-Proxy Server – A server that services the requests of its clients by forwarding those requests to other servers.
+프록시 서버(Proxy Server) - 클라이언트의 요청을 다른 서버로 전달하여 클라이언트의 요청을 서비스하는 서버.
 SOURCE: CNSSI-4009
 
-Public Domain Software – Software not protected by copyright laws of any nation that may be freely used without permission of, or payment to, the creator, and that carries no warranties from, or liabilities to the creator.
+공개 도메인 소프트웨어(Public Domain Software) - 어떤 국가의 저작권법으로도 보호되지 않아 창작자의 허가나 대가 없이 자유롭게 사용할 수 있고, 창작자로부터의 보증이나 책임이 없는 소프트웨어.
 SOURCE: CNSSI-4009
 
-Public Key - A cryptographic key used with a public key cryptographic algorithm, uniquely associated with an entity, and which may be made public; it is used to verify a digital signature; this key is mathematically linked with a corresponding private key.
+공개 키(Public Key) - 공개 키 암호화 알고리즘과 함께 사용되며, 엔티티와 고유하게 연결되고 공개될 수 있는 암호화 키; 디지털 서명을 검증하는 데 사용됩니다; 이 키는 해당하는 개인 키와 수학적으로 연결되어 있습니다.
 SOURCE: FIPS 196
 
 Q
 
-Qualitative Assessment – Use of a set of methods, principles, or rules for assessing risk based on nonnumeric categories or levels.
+정성적 평가(Qualitative Assessment) - 비숫자적 범주 또는 수준을 기반으로 위험을 평가하기 위한 방법, 원칙 또는 규칙 집합의 사용.
 SOURCE: SP 800-30
 
-Quality of Service – The measurable end-to-end performance properties of a network service, which can be guaranteed in advance by a Service-Level Agreement between a user and a service provider, so as to satisfy specific customer application requirements. Note: These properties may include throughput (bandwidth), transit delay (latency), error rates, priority, security, packet loss, packet jitter, etc.
+서비스 품질(Quality of Service) - 특정 고객 애플리케이션 요구사항을 충족하기 위해 사용자와 서비스 제공자 간의 서비스 수준 계약에서 미리 보장될 수 있는 네트워크 서비스의 측정 가능한 종단 간 성능 속성. 참고: 이러한 속성에는 처리량(대역폭), 전송 지연(지연), 오류율, 우선순위, 보안, 패킷 손실, 패킷 지터 등이 포함될 수 있습니다.
 SOURCE: CNSSI-4009
 
-Quantitative Assessment – Use of a set of methods, principles, or rules for assessing risks based on the use of numbers where the meanings and proportionality of values are maintained inside and outside the context of the assessment.
+정량적 평가(Quantitative Assessment) - 평가 맥락 내부와 외부에서 값의 의미와 비례성이 유지되는 숫자를 사용하여 위험을 평가하기 위한 방법, 원칙 또는 규칙 집합의 사용.
 SOURCE: SP 800-30
 
-Quarantine – Store files containing malware in isolation for future disinfection or examination.
+격리(Quarantine) - 향후 치료 또는 검사를 위해 맬웨어가 포함된 파일을 격리 저장하는 것.
 SOURCE: SP 800-69
 
 R
 
-Radio Frequency Identification (RFID) – A form of automatic identification and data capture (AIDC) that uses electric or magnetic fields at radio frequencies to transmit information.
+무선 주파수 식별(RFID) - 무선 주파수에서 전기장 또는 자기장을 사용하여 정보를 전송하는 자동 식별 및 데이터 캡처(AIDC)의 한 형태.
 SOURCE: SP 800-98
 
-Read – Fundamental operation in an information system that results only in the flow of information from an object to a subject.
+읽기(Read) - 정보 시스템에서 객체에서 주체로의 정보 흐름만을 초래하는 기본 작업.
 SOURCE: CNSSI-4009
 
-Read Access – Permission to read information in an information system.
+읽기 접근(Read Access) - 정보 시스템에서 정보를 읽을 수 있는 권한.
 SOURCE: CNSSI-4009
 
-Real-Time Reaction – Immediate response to a penetration attempt that is detected and diagnosed in time to prevent access.
+실시간 대응(Real-Time Reaction) - 접근을 방지할 시간에 탐지되고 진단된 침투 시도에 대한 즉각적인 대응.
 SOURCE: CNSSI-4009
 
-Red Team – A group of people authorized and organized to emulate a potential adversary’s attack or exploitation capabilities against an enterprise’s security posture. The Red Team’s objective is to improve enterprise Information Assurance by demonstrating the impacts of successful attacks and by demonstrating what works for the defenders (i.e., the Blue Team) in an operational environment.
+레드팀(Red Team) - 기업의 보안 태세에 대해 잠재적 적의 공격 또는 악용 능력을 모방하도록 인가되고 조직된 사람들의 그룹. 레드팀의 목표는 성공적인 공격의 영향을 시연하고 운영 환경에서 방어자(즉, 블루팀)에게 효과가 있는 것을 시연하여 기업 정보 보증을 개선하는 것입니다.
 SOURCE: CNSSI-4009
 
-Red Team Exercise – An exercise, reflecting real-world conditions, that is conducted as a simulated adversarial attempt to compromise organizational missions and/or business processes to provide a comprehensive assessment of the security capability of the information system and organization.
+레드팀 훈련(Red Team Exercise) - 정보 시스템과 조직의 보안 능력에 대한 포괄적인 평가를 제공하기 위해 조직 미션 및/또는 비즈니스 프로세스를 손상시키려는 시뮬레이션된 적대적 시도로 수행되는, 실제 조건을 반영한 훈련.
 SOURCE: SP 800-53
 
-Remote Access – Access to an organizational information system by a user (or an information system acting on behalf of a user) communicating through an external network (e.g., the Internet).
+원격 접근(Remote Access) - 외부 네트워크(예: 인터넷)를 통해 통신하는 사용자(또는 사용자를 대신하여 행동하는 정보 시스템)에 의한 조직 정보 시스템에 대한 접근.
 SOURCE: SP 800-53
 
-Repository – A database containing information and data relating to certificates as specified in a CP; may also be referred to as a directory.
+저장소(Repository) - CP에 지정된 인증서와 관련된 정보와 데이터를 포함하는 데이터베이스; 디렉터리라고도 할 수 있습니다.
 SOURCE: SP 800-32
 
-Risk Assessment – The process of identifying risks to organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, and the Nation, arising through the operation of an information system. Part of risk management, incorporates threat and vulnerability analyses and considers mitigations provided by security controls planned or in place. Synonymous with risk analysis.
+위험 평가(Risk Assessment) - 정보 시스템의 운영을 통해 조직 운영(미션, 기능, 이미지 또는 평판 포함), 조직 자산, 개인, 다른 조직 또는 국가에 발생하는 위험을 식별하는 프로세스. 위험 관리의 일부로, 계획되거나 실시 중인 보안 통제에 의해 제공되는 완화를 고려하면서 위협 및 취약성 분석을 통합합니다. 위험 분석과 동의어입니다.
 SOURCE: SP 800-53; SP 800-53A; SP 800-37
 
-Risk Assessment Methodology – A risk assessment process, together with a risk model, assessment approach, and analysis approach.
+위험 평가 방법론(Risk Assessment Methodology) - 위험 모델, 평가 접근 방식 및 분석 접근 방식과 함께 위험 평가 프로세스.
 SOURCE: SP 800-30
 
-Risk Assessment Report – The report which contains the results of performing a risk assessment or the formal output from the process of assessing risk.
+위험 평가 보고서(Risk Assessment Report) - 위험 평가를 수행한 결과를 포함하는 보고서 또는 위험 평가 프로세스의 공식 출력.
 SOURCE: SP 800-30
 
-Root Certification Authority – In a hierarchical Public Key Infrastructure, the Certification Authority whose public key serves as the most trusted datum (i.e., the beginning of trust paths) for a security domain.
+루트 인증 기관(Root Certification Authority) - 계층적 공개 키 인프라에서, 공개 키가 보안 도메인에 대한 가장 신뢰할 수 있는 데이텀(즉, 신뢰 경로의 시작)으로 역할하는 인증 기관.
 SOURCE: SP 800-32; CNSSI-4009
 
-Rootkit – A set of tools used by an attacker after gaining root-level access to a host to conceal the attacker’s activities on the host and permit the attacker to maintain root-level access to the host through covert means.
+루트킷(Rootkit) - 호스트에 대한 루트 수준 접근을 얻은 후 공격자가 호스트에서 공격자의 활동을 숨기고 은밀한 수단을 통해 호스트에 대한 루트 수준 접근을 유지할 수 있도록 하는 데 사용하는 도구 집합.
 SOURCE: CNSSI-4009
 
 S
-Safeguards – Protective measures prescribed to meet the security requirements (i.e., confidentiality, integrity, and availability) specified for an information system. Safeguards may include security features, management constraints, personnel security, and security of physical structures, areas, and devices. Synonymous with security controls and countermeasures.
+보호 조치(Safeguards) - 정보 시스템에 지정된 보안 요구사항(즉, 기밀성, 무결성 및 가용성)을 충족하도록 규정된 보호 조치. 보호 조치에는 보안 기능, 관리 제약, 인사 보안, 물리적 구조, 구역 및 장치의 보안이 포함될 수 있습니다. 보안 통제 및 대응책과 동의어입니다.
 SOURCE: SP 800-53; SP 800-37; FIPS 200; CNSSI-4009
 
-Sandboxing- A restricted, controlled execution environment that prevents potentially malicious software, such as mobile code, from accessing any system resources except those for which the software is authorized.
+샌드박싱(Sandboxing) - 모바일 코드와 같은 잠재적으로 악의적인 소프트웨어가 소프트웨어가 인가된 것을 제외한 시스템 자원에 접근하는 것을 방지하는 제한되고 통제된 실행 환경.
 SOURCE: CNSSI-4009
 
-Scanning – Sending packets or requests to another system to gain information to be used in a subsequent attack.
+스캐닝(Scanning) - 후속 공격에 사용될 정보를 얻기 위해 다른 시스템에 패킷이나 요청을 보내는 것.
 SOURCE: CNSSI-4009
 
-Secure Socket Layer (SSL) – A protocol used for protecting private information during transmission via the Internet.
- * **Note:** SSL works by using a public key to encrypt data that's transferred over the SSL connection. Most Web browsers support
-SSL, and many Web sites use the protocol to obtain confidential user information, such as credit card numbers. By convention, URLs that require an SSL connection start with “https:” instead of “http:.”
+보안 소켓 계층(SSL) - 인터넷을 통한 전송 중에 개인 정보를 보호하는 데 사용되는 프로토콜.
+ * **참고:** SSL은 SSL 연결을 통해 전송되는 데이터를 암호화하기 위해 공개 키를 사용하여 작동합니다. 대부분의 웹 브라우저는 SSL을 지원하며, 많은 웹 사이트에서 신용 카드 번호와 같은 기밀 사용자 정보를 얻기 위해 이 프로토콜을 사용합니다. 관례적으로, SSL 연결이 필요한 URL은 "http:" 대신 "https:"로 시작합니다.
 SOURCE: CNSSI-4009
 
-Security Content Automation Protocol (SCAP) – A method for using specific standardized testing methods to enable automated vulnerability management, measurement, and policy compliance evaluation against a standardized set of security requirements.
+보안 콘텐츠 자동화 프로토콜(SCAP) - 표준화된 보안 요구사항 집합에 대해 자동화된 취약성 관리, 측정 및 정책 준수 평가를 가능하게 하기 위해 특정 표준화된 테스트 방법을 사용하는 방법.
 SOURCE: CNSSI-4009
 
-Signature – A recognizable, distinguishing pattern associated with an attack, such as a binary string in a virus or a particular set of keystrokes used to gain unauthorized access to a system.
+서명(Signature) - 바이러스의 이진 문자열 또는 시스템에 대한 무단 접근을 얻기 위해 사용되는 특정 키 입력 집합과 같이, 공격과 관련된 인식 가능한 구별 패턴.
 SOURCE: SP 800-61
 
-Signature Certificate – A public key certificate that contains a public key intended for verifying digital signatures rather than encrypting data or performing any other cryptographic functions.
+서명 인증서(Signature Certificate) - 데이터 암호화 또는 기타 암호화 기능을 수행하는 것이 아니라 디지털 서명을 검증하기 위한 공개 키를 포함하는 공개 키 인증서.
 SOURCE: SP 800-32; CNSSI-4009
 
-Smart Card – A credit card-sized card with embedded integrated circuits that can store, process, and communicate information.
+스마트 카드(Smart Card) - 정보를 저장, 처리 및 통신할 수 있는 내장 집적 회로가 있는 신용 카드 크기의 카드.
 SOURCE: CNSSI-4009
 
-Social Engineering – An attempt to trick someone into revealing information (e.g., a password) that can be used to attack systems or networks.
+사회 공학(Social Engineering) - 시스템이나 네트워크를 공격하는 데 사용될 수 있는 정보(예: 비밀번호)를 공개하도록 누군가를 속이려는 시도.
 SOURCE: SP 800-61
 
-Spam - Electronic junk mail or the abuse of electronic messaging systems to indiscriminately send unsolicited bulk messages.
+스팸(Spam) - 전자 정크 메일 또는 원하지 않는 대량 메시지를 무차별적으로 보내기 위한 전자 메시징 시스템의 남용.
 SOURCE: CNSSI-4009
 
-Spoofing – “IP spoofing” refers to sending a network packet that appears to come from a source other than its actual source.
+스푸핑(Spoofing) - "IP 스푸핑"은 실제 소스가 아닌 다른 소스에서 온 것처럼 보이는 네트워크 패킷을 보내는 것을 의미합니다.
 SOURCE: SP 800-48
 
-Spyware – Software that is secretly or surreptitiously installed into an information system to gather information on individuals or
-organizations without their knowledge; a type of malicious code.
+스파이웨어(Spyware) - 개인 또는 조직에 대한 정보를 그들이 모르게 수집하기 위해 정보 시스템에 비밀리에 또는 은밀하게 설치되는 소프트웨어; 악성 코드의 한 유형.
 SOURCE: SP 800-53; CNSSI-4009
 
-Steganography – The art and science of communicating in a way that hides the existence of the communication. For example, a child pornography image can be hidden inside another graphic image file, audio file, or other file format.
+스테가노그래피(Steganography) - 통신의 존재를 숨기는 방식으로 통신하는 기술과 과학. 예를 들어, 아동 포르노 이미지는 다른 그래픽 이미지 파일, 오디오 파일 또는 기타 파일 형식 안에 숨길 수 있습니다.
 SOURCE: SP 800-72; SP 800-101
 
-Supply Chain Attack – Attacks that allow the adversary to utilize implants or other vulnerabilities inserted prior to installation in order to infiltrate data, or manipulate information technology hardware, software, operating systems, peripherals (information technology products) or services at any point during the life cycle.
+공급망 공격(Supply Chain Attack) - 적이 데이터를 침투하거나 정보 기술 하드웨어, 소프트웨어, 운영 체제, 주변 장치(정보 기술 제품) 또는 서비스를 수명 주기의 어느 시점에서든 조작하기 위해 설치 전에 삽입된 임플란트 또는 기타 취약성을 활용할 수 있게 하는 공격.
 SOURCE: CNSSI-4009
 
-System Development Life Cycle (SDLC) – The scope of activities associated with a system, encompassing the system’s initiation, development and acquisition, implementation, operation and maintenance, and ultimately its disposal that instigates another system initiation.
+시스템 개발 수명 주기(SDLC) - 시스템의 시작, 개발 및 획득, 구현, 운영 및 유지 관리, 그리고 궁극적으로 다른 시스템 시작을 촉발하는 폐기를 포함하는 시스템과 관련된 활동의 범위.
 SOURCE: SP 800-34; CNSSI-4009
 
-System Development Methodologies – Methodologies developed through software engineering to manage the complexity of system development. Development methodologies include software engineering aids and high-level design analysis tools.
+시스템 개발 방법론(System Development Methodologies) - 시스템 개발의 복잡성을 관리하기 위해 소프트웨어 엔지니어링을 통해 개발된 방법론. 개발 방법론에는 소프트웨어 엔지니어링 도구와 고급 설계 분석 도구가 포함됩니다.
 SOURCE: CNSSI-4009
 
-System Integrity – The quality that a system has when it performs its intended function in an unimpaired manner, free from unauthorized manipulation of the system, whether intentional or accidental.
+시스템 무결성(System Integrity) - 시스템이 의도적이든 우발적이든 무단 조작 없이 손상되지 않은 방식으로 의도된 기능을 수행할 때 시스템이 갖는 품질.
 SOURCE: SP 800-27
 
 T
 
-Tailoring – The process by which a security control baseline is modified based on: (i) the application of scoping guidance; (ii) the specification of compensating security controls, if needed; and (iii) the specification of organization-defined parameters in the security controls via explicit assignment and selection statements.
+맞춤화(Tailoring) - 보안 통제 기준이 다음에 기반하여 수정되는 프로세스: (i) 범위 지침의 적용; (ii) 필요한 경우 보완 보안 통제의 지정; 그리고 (iii) 명시적 할당 및 선택 진술을 통한 보안 통제에서 조직 정의 매개변수의 지정.
 SOURCE: SP 800-37; SP 800-53; SP 800-53A; CNSSI-4009
 
-Tampering – An intentional event resulting in modification of a system, its intended behavior, or data.
+변조(Tampering) - 시스템, 의도된 동작 또는 데이터의 수정을 초래하는 의도적인 이벤트.
 SOURCE: CNSSI-4009
 
-Telecommunications – Preparation, transmission, communication, or related processing of information (writing, images, sounds, or other data) by electrical, electromagnetic, electromechanical, electro-optical, or electronic means.
+통신(Telecommunications) - 전기적, 전자기적, 전기 기계적, 전기 광학적 또는 전자적 수단에 의한 정보(글, 이미지, 소리 또는 기타 데이터)의 준비, 전송, 통신 또는 관련 처리.
 SOURCE: CNSSI-4009
 
-Threat – Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), organizational assets, individuals, other organizations, or the Nation through an information system via unauthorized access, destruction, disclosure, modification of information, and/or denial of service.
-SOURCE: SP 800-53; SP 800-53A; SP 800-27; SP 800-60; SP 800-
-37; CNSSI-4009
+위협(Threat) - 무단 접근, 파괴, 정보 공개, 수정 및/또는 서비스 거부를 통해 정보 시스템을 통해 조직 운영(미션, 기능, 이미지 또는 평판 포함), 조직 자산, 개인, 다른 조직 또는 국가에 악영향을 미칠 가능성이 있는 모든 상황 또는 이벤트.
+SOURCE: SP 800-53; SP 800-53A; SP 800-27; SP 800-60; SP 800-37; CNSSI-4009
 
-Threat Analysis – The examination of threat sources against system vulnerabilities to determine the threats for a particular system in a particular operational environment.
+위협 분석(Threat Analysis) - 특정 운영 환경에서 특정 시스템에 대한 위협을 결정하기 위해 시스템 취약성에 대한 위협 소스의 검토.
 SOURCE: SP 800-27
 
-Threat Assessment – Formal description and evaluation of threat to an information system.
+위협 평가(Threat Assessment) - 정보 시스템에 대한 위협의 공식적인 설명 및 평가.
 SOURCE: SP 800-53; SP 800-18
 
-Threat Monitoring – Analysis, assessment, and review of audit trails and other information collected for the purpose of searching out system events that may constitute violations of system security.
+위협 모니터링(Threat Monitoring) - 시스템 보안 위반을 구성할 수 있는 시스템 이벤트를 검색하기 위해 감사 추적 및 기타 정보를 수집하여 분석, 평가 및 검토하는 것.
 SOURCE: CNSSI-4009
 
-Token – Something that the Claimant possesses and controls (typically a key or password) that is used to authenticate the Claimant’s identity.
+토큰(Token) - 청구인의 신원을 인증하는 데 사용되는, 청구인이 소유하고 제어하는 것(일반적으로 키 또는 비밀번호).
 SOURCE: SP 800-63
 
-Tracking Cookie – A cookie placed on a user’s computer to track the user’s activity on different Web sites, creating a detailed profile of the user’s behavior.
+추적 쿠키(Tracking Cookie) - 사용자의 상세한 행동 프로필을 만들기 위해 다른 웹 사이트에서 사용자의 활동을 추적하기 위해 사용자의 컴퓨터에 배치되는 쿠키.
 SOURCE: SP 800-83
 
-Traffic Analysis – A form of passive attack in which an intruder observes information about calls (although not necessarily the contents of the messages) and makes inferences, e.g., from the source and destination numbers, or frequency and length of the messages.
+트래픽 분석(Traffic Analysis) - 침입자가 호출에 대한 정보(반드시 메시지 내용은 아님)를 관찰하고 예를 들어 소스 및 목적지 번호 또는 메시지의 빈도와 길이에서 추론을 만드는 수동적 공격의 한 형태.
 SOURCE: SP 800-24
 
-Trojan Horse – A computer program that appears to have a useful function, but also has a hidden and potentially malicious function that evades security mechanisms, sometimes by exploiting legitimate authorizations of a system entity that invokes the program.
+트로이 목마(Trojan Horse) - 유용한 기능을 가진 것처럼 보이지만, 프로그램을 호출하는 시스템 엔티티의 합법적인 인가를 악용하여 때때로 보안 메커니즘을 우회하는 숨겨진 잠재적으로 악의적인 기능도 가지고 있는 컴퓨터 프로그램.
 SOURCE: CNSSI-4009
 
 U
 
-Unauthorized Access – Unauthorized Occurs when a user, legitimate or unauthorized, accesses a resource that the user is not permitted to use.
+무단 접근(Unauthorized Access) - 합법적이든 무단이든 사용자가 사용할 권한이 없는 자원에 접근할 때 발생합니다.
 SOURCE: FIPS 191
 
-Unauthorized Disclosure – An event involving the exposure of information to entities not authorized access to the information.
+무단 공개(Unauthorized Disclosure) - 정보에 대한 접근이 인가되지 않은 엔티티에게 정보가 노출되는 이벤트.
 SOURCE: SP 800-57 Part 1; CNSSI-4009
 
-User – Individual or (system) process authorized to access an information system.
+사용자(User) - 정보 시스템에 접근하도록 인가된 개인 또는 (시스템) 프로세스.
 SOURCE: FIPS 200
 
-User Initialization – A function in the life cycle of keying material; the process whereby a user initializes its cryptographic application (e.g., installing and initializing software and hardware).
+사용자 초기화(User Initialization) - 키 자료 수명 주기의 기능; 사용자가 암호화 애플리케이션을 초기화하는(예: 소프트웨어 및 하드웨어 설치 및 초기화) 프로세스.
 SOURCE: SP 800-57 Part 1
 
 V
 
-Validation – The process of demonstrating that the system under consideration meets in all respects the specification of that system.
+검증(Validation) - 고려 중인 시스템이 해당 시스템의 사양을 모든 면에서 충족함을 입증하는 프로세스.
 SOURCE: FIPS 201
 
-Verification – Confirmation, through the provision of objective evidence, that specified requirements have been fulfilled (e.g., an entity’s requirements have been correctly defined, or an entity’s attributes have been correctly presented; or a procedure or function performs as intended and leads to the expected outcome).
+확인(Verification) - 지정된 요구사항이 충족되었다는 객관적 증거의 제공을 통한 확인(예: 엔티티의 요구사항이 올바르게 정의되었거나, 엔티티의 속성이 올바르게 제시되었거나; 절차 또는 기능이 의도한 대로 수행되고 예상되는 결과를 초래함).
 SOURCE: CNSSI-4009
 
-Virtual Machine (VM) – Software that allows a single host to run one or more guest operating systems.
+가상 머신(VM) - 단일 호스트가 하나 이상의 게스트 운영 체제를 실행할 수 있게 하는 소프트웨어.
 SOURCE: SP 800-115
 
-Virtual Private Network (VPN) – A virtual network, built on top of existing physical networks, that provides a secure communications tunnel for data and other information transmitted between networks.
+가상 사설 네트워크(VPN) - 기존 물리적 네트워크 위에 구축되어 네트워크 간에 전송되는 데이터 및 기타 정보에 대한 안전한 통신 터널을 제공하는 가상 네트워크.
 SOURCE: SP 800-46
 
-Virus – A computer program that can copy itself and infect a computer without permission or knowledge of the user. A virus might corrupt
-or delete data on a computer, use email programs to spread itself to other computers, or even erase everything on a hard disk.
+바이러스(Virus) - 사용자의 허가나 지식 없이 자신을 복사하고 컴퓨터를 감염시킬 수 있는 컴퓨터 프로그램. 바이러스는 컴퓨터의 데이터를 손상시키거나 삭제하고, 이메일 프로그램을 사용하여 다른 컴퓨터로 자신을 퍼뜨리거나, 심지어 하드 디스크의 모든 것을 지울 수 있습니다.
 SOURCE: CNSSI-4009
 
-Vulnerability – Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source.
+취약성(Vulnerability) - 위협 소스에 의해 악용되거나 촉발될 수 있는 정보 시스템, 시스템 보안 절차, 내부 통제 또는 구현의 약점.
 SOURCE: SP 800-53; SP 800-53A; SP 800-37; SP 800-60; SP 800-115; FIPS 200
 
-Vulnerability Assessment –Formal description and evaluation of the vulnerabilities in an information system.
+취약성 평가(Vulnerability Assessment) - 정보 시스템의 취약성에 대한 공식적인 설명 및 평가.
 SOURCE: SP 800-53; SP 800-37
 
 W
 
-Web Content Filtering Software – A program that prevents access to undesirable Web sites, typically by comparing a requested Web site address to a list of known bad Web sites.
+웹 콘텐츠 필터링 소프트웨어(Web Content Filtering Software) - 일반적으로 요청된 웹 사이트 주소를 알려진 나쁜 웹 사이트 목록과 비교하여 바람직하지 않은 웹 사이트에 대한 접근을 방지하는 프로그램.
 SOURCE: SP 800-69
 
-Web Risk Assessment – Processes for ensuring Web sites are in compliance with applicable policies.
+웹 위험 평가(Web Risk Assessment) - 웹 사이트가 해당 정책을 준수하는지 확인하기 위한 프로세스.
 SOURCE: CNSSI-4009
 
-Whitelist – A list of discrete entities, such as hosts or applications that are known to be benign and are approved for use within an organization and/or information system.
+화이트리스트(Whitelist) - 양성으로 알려져 있고 조직 및/또는 정보 시스템 내에서 사용이 승인된 호스트 또는 애플리케이션과 같은 개별 엔티티의 목록.
 SOURCE: SP 800-128
 
-Wi-Fi Protected Access-2 (WPA2) – The approved Wi-Fi Alliance interoperable implementation of the IEEE 802.11i security standard. For federal government use, the implementation must use FIPS-approved encryption, such as AES.
+Wi-Fi Protected Access-2(WPA2) - IEEE 802.11i 보안 표준의 승인된 Wi-Fi Alliance 상호 운용 가능 구현. 연방 정부 사용을 위해 구현은 AES와 같은 FIPS 승인 암호화를 사용해야 합니다.
 SOURCE: CNSSI-4009
 
-Wireless Local Area Network (WLAN) – A group of wireless networking devices within a limited geographic area, such as an office building, that exchange data through radio communications. The security of each WLAN is heavily dependent on how well each WLAN component—including client devices, APs, and wireless switches—is secured throughout the WLAN lifecycle, from initial WLAN design and deployment through ongoing maintenance and monitoring.
+무선 근거리 통신망(WLAN) - 사무실 건물과 같은 제한된 지리적 영역 내에서 무선 통신을 통해 데이터를 교환하는 무선 네트워킹 장치 그룹. 각 WLAN의 보안은 초기 WLAN 설계 및 배포에서 지속적인 유지 관리 및 모니터링에 이르기까지 WLAN 수명 주기 전체에 걸쳐 클라이언트 장치, AP 및 무선 스위치를 포함한 각 WLAN 구성요소가 얼마나 잘 보호되는지에 크게 의존합니다.
 SOURCE: SP 800-153
 
-Write – Fundamental operation in an information system that results only in the flow of information from a subject to an object. See Access Type.
+쓰기(Write) - 정보 시스템에서 주체에서 객체로의 정보 흐름만을 초래하는 기본 작업. 접근 유형을 참조하세요.
 SOURCE: CNSSI-4009
 
-Write Access – Permission to write to an object in an information system.
+쓰기 접근(Write Access) - 정보 시스템에서 객체에 쓸 수 있는 권한.
 SOURCE: CNSSI-4009
 
 Z
 
-Zeroize – To remove or eliminate the key from a cryptographic equipment or fill device.
+제로화(Zeroize) - 암호화 장비 또는 충전 장치에서 키를 제거하거나 삭제하는 것.
 SOURCE: CNSSI-4009
 
-Zombie – A program that is installed on a system to cause it to attack other systems.
+좀비(Zombie) - 다른 시스템을 공격하도록 시스템에 설치된 프로그램.
 SOURCE: SP 800-83

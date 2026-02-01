@@ -1,14 +1,14 @@
-# Contributing Guidelines
+# 기여 가이드라인
 
-**Make sure your pull request follows these guidelines:**
+**풀 리퀘스트가 다음 가이드라인을 따르는지 확인해 주세요:**
 
-- Search through the previous pull requests before making a new one! 
-- Adding new categories, or improving existing categories is welcome!
-- Make sure you've personally used or benefited from the suggested resource.
-- Make an individual pull request for each suggestion.
-- Use the following format: `[Resource Title](url link) — description.`
-- Expand on why the resource is useful in your pull request if needed.
-- Keep descriptions short and simple, but descriptive. 
-- Please double check your spelling and grammar.
+- 새 풀 리퀘스트를 만들기 전에 이전 풀 리퀘스트를 먼저 검색해 주세요!
+- 새로운 카테고리를 추가하거나 기존 카테고리를 개선하는 것은 환영합니다!
+- 제안하는 리소스를 직접 사용해보거나 혜택을 받은 경험이 있는지 확인해 주세요.
+- 각 제안에 대해 개별 풀 리퀘스트를 만들어 주세요.
+- 다음 형식을 사용해 주세요: `[리소스 제목](url 링크) — 설명.`
+- 필요한 경우 풀 리퀘스트에서 해당 리소스가 유용한 이유를 자세히 설명해 주세요.
+- 설명은 짧고 간단하게, 하지만 설명적으로 작성해 주세요.
+- 맞춤법과 문법을 다시 한번 확인해 주세요.
 
-**Thanks for contributing to this Project!**
+**이 프로젝트에 기여해 주셔서 감사합니다!**
