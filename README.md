@@ -45,153 +45,153 @@ Apple M1/M1 Pro/M1 Max/M1 Ultra 아키텍처.
 
 # 목차
 
-1. [Apple Silicon 시작하기](https://github.com/mikeroyal/Apple-Silicon-Guide#getting-started-with-apple-silicon)
+1. [애플 실리콘 시작하기](#애플-실리콘-시작하기)
    * [A17 Pro](#a17-pro)
-   * [A16 Bionic](https://github.com/mikeroyal/Apple-Silicon-Guide#A16-Bionic)
-   * [H2](https://github.com/mikeroyal/Apple-Silicon-Guide#H2)
+   * [A16 Bionic](#a16-bionic)
+   * [H2](#h2)
    * [S9](#s9)
-   * [U1](https://github.com/mikeroyal/Apple-Silicon-Guide#U1)
-   * [R1](#R1)
-   * [M1](https://github.com/mikeroyal/Apple-Silicon-Guide#m1)
-   * [M1 Pro](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-pro)
-   * [M1 Max](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-max)
-   * [M1 Ultra](https://github.com/mikeroyal/Apple-Silicon-Guide#m1-ultra)
-   * [M2](https://github.com/mikeroyal/Apple-Silicon-Guide#m2)
-   * [M2 Pro](#M2-프로)
-   * [M2 Max](#M2-최대)
-   * [M2 Ultra](#M2-울트라)
+   * [U1](#u1)
+   * [R1](#r1)
+   * [M1](#m1)
+   * [M1 Pro](#m1-pro)
+   * [M1 Max](#m1-max)
+   * [M1 Ultra](#m1-ultra)
+   * [M2](#m2)
+   * [M2 Pro](#m2-pro)
+   * [M2 Max](#m2-max)
+   * [M2 Ultra](#m2-ultra)
    * [M3](#m3)
    * [M3 Pro](#m3-pro)
-   * [M3 Max](#m3-최대)
-   * [M3 Ultra](#m3-울트라)
-   * [Apple AR 및 Vision Pro 헤드셋](#apple-ar-and-vision-pro-headset)
-   * [Apple Silicon 기반 장치](https://github.com/mikeroyal/Apple-Silicon-Guide#Devices-powered-by-Apple-Silicon)
-   * [소프트웨어 다운로드](https://github.com/mikeroyal/Apple-Silicon-Guide#Getting-Software)
-     - [생산성 및 워크플로 앱](https://github.com/mikeroyal/Apple-Silicon-Guide#Productivity--Workflow-Apps)
-     - [보안 및 개인정보 보호에 중점을 둔 웹 브라우저](https://github.com/mikeroyal/Apple-Silicon-Guide#secure--privacy-focused-web-browsers)
-        * [개인정보 보호 및 보안에 중점을 둔 브라우저 확장 프로그램](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy--security-focused-browser-extensions)
-        * [개인정보 보호에 중점을 둔 검색엔진](https://github.com/mikeroyal/Apple-Silicon-Guide#privacy-focused-search-engines)
-     - [Microsoft Office 대안](https://github.com/mikeroyal/Apple-Silicon-Guide#microsoft-office-alternatives)
-   * [유니버설 컨트롤](https://github.com/mikeroyal/Apple-Silicon-Guide#Universal-Control)
-   * [스테이지 매니저](https://github.com/mikeroyal/Apple-Silicon-Guide#Stage-Manager)
-   * [파일 동기화/전송](#File-SyncTransfer)
-   - [iCloud를 Nexcloud로 교체하기](#Replacing-iCloud-with-Nexcloud)
-   * [저장소 추가(외부)](https://github.com/mikeroyal/Apple-Silicon-Guide#Adding-External-Storage)
+   * [M3 Max](#m3-max)
+   * [M3 Ultra](#m3-ultra)
+   * [Apple AR 및 Vision Pro 헤드셋](#apple-ar-및-vision-pro-헤드셋)
+   * [Apple Silicon 기반 장치](#apple-silicon-기반-장치)
+   * [소프트웨어 받기](#소프트웨어-받기)
+     - [생산성 및 워크플로 앱](#productivity-workflow-apps)
+     - [보안 및 개인정보 보호에 중점을 둔 웹 브라우저](#secure-privacy-focused-web-browsers)
+        * [개인정보 보호 및 보안에 중점을 둔 브라우저 확장 프로그램](#privacy-security-focused-browser-extensions)
+        * [개인정보 보호에 중점을 둔 검색엔진](#privacy-focused-search-engines)
+     - [Microsoft Office 대안](#microsoft-office-alternatives)
+   * [유니버설 컨트롤](#universal-control)
+   * [스테이지 매니저](#stage-manager)
+   * [파일 동기화/전송](#file-synctransfer)
+   - [iCloud를 Nexcloud로 교체하기](#replacing-icloud-with-nexcloud)
+   * [저장소 추가(외부)](#adding-external-storage)
    * [백업](#백업)
-   * [SSD 드라이브 상태/데이터 복구](https://github.com/mikeroyal/Apple-Silicon-Guide#SSD-Drive-HealthData-Recovery)
-   * [배터리 상태 확인](https://github.com/mikeroyal/Apple-Silicon-Guide#Checking-Battery-Health)
+   * [SSD 드라이브 상태/데이터 복구](#ssd-drive-healthdata-recovery)
+   * [배터리 상태 확인](#checking-battery-health)
       - [저전력 모드 켜기](#low-power-mode)
-   * [충전/충전기](#ChargingPowerbanks)
+   * [충전/충전기](#chargingpowerbanks)
       - [USB-C 어댑터](#usb-c-adapters)
-      - [USB-C 고속 충전 케이블(3.3~10피트)](#usb-c-fast-charge-cables)
-   * [MacOS/iOS 보안 강화](https://github.com/mikeroyal/Apple-Silicon-Guide#macosios-security-hardening)
+      - [USB-C 고속 충전 케이블(3.3~10피트)](#usb-c-fast-charging-cables)
+   * [MacOS/iOS 보안 강화](#macosios-security-hardening)
    
- 1. [게임](https://github.com/mikeroyal/Apple-Silicon-Guide#gaming)
+ 1. [게임](#gaming)
       
       - [Apple Silicon 기반 게임 리소스](#gaming-on-apple-silicon-resources)
       - [MacOS 게임 모드](#macos-game-mode)
       - [게임 포팅 툴킷](#game-porting-toolkit)
       - [위스키 와인 래퍼](#위스키)
-      - [MacOS용 CrossOver](#CrossOver-for-MacOS)
-      - [Xbox Game Pass의 게임](#gaming-on-xbox-game-pass)
-      - [온도/팬 관리(CPU 및 GPU)](#Manage-TempsFans-CPU-and-GPU)
-      - [게임 주변기기](#게임 주변기기)
-        * [게임용 마우스, 키보드 및 헤드셋](#RGB-장치)
-        * [게임 컨트롤러](#game-controllers)
-      - [OBS Studio 설정하기](#Setting-up-OBS-Studio)
-          * [유용한 OBS Studio 타사 플러그인 및 테마](#useful-obs-studio-3rd-party-plugins-and-themes)
-      - [불협화음](#Discord)
+      - [MacOS용 CrossOver](#macos용-crossover)
+      - [Xbox Game Pass의 게임](#xbox-game-pass에서의-게임)
+      - [온도/팬 관리(CPU 및 GPU)](#온도팬-관리cpu-및-gpu)
+      - [게임 주변기기](#게임-주변기기)
+        * [게임용 마우스, 키보드 및 헤드셋](#rgb-장치)
+        * [게임 컨트롤러](#게임-컨트롤러)
+      - [OBS Studio 설정하기](#obs-스튜디오-설정)
+          * [유용한 OBS Studio 타사 플러그인 및 테마](#유용한-obs-studio-타사-플러그인-및-테마)
+      - [Discord](#discord)
       - [트위치](#트위치)
-      - [게임 스토어 및 런처](#Game-Stores--런처)
-        * [애플 아케이드](#apple-arcade)
+      - [게임 스토어 및 런처](#게임-스토어-및-런처)
+        * [애플 아케이드](#애플-아케이드)
         * [플레이커버](#플레이커버)
         * [스팀](#스팀)
-        * [히어로익 게임 런처](#heroic-game-launcher)
-        * [에픽게임즈 스토어](#Epic-games-store)
-        * [블리자드 Battle.net](#블리자드-배틀넷)
-        * [오리진](#오리진)
-        * [EA 플레이](#EA-Play)
-        * [Ubisoft Connect](#Ubisoft-Connect)
-        * [GOG 갤럭시 스토어](#GOG-갤럭시)
-        * [잇치오 스토어](#잇치오스토어)
-        * [FF XIV용 Mac의 XIV](#XIV-on-Mac)
-      - [게임 스트리밍](#게임 스트리밍)
-        * [클라우드 게임 스트리밍](#Cloud-Game-Streaming)
+        * [Heroic Game Launcher](#heroic-game-launcher)
+        * [Epic Games Store](#epic-games-store)
+        * [블리자드 Battle.net](#블리자드-battlenet)
+        * [Origin](#origin)
+        * [EA 플레이](#ea-플레이)
+        * [Ubisoft Connect](#ubisoft-connect)
+        * [GOG Galaxy](#gog-galaxy)
+        * [Itch.io Store](#itchio-store)
+        * [XIV on Mac](#xiv-on-mac)
+      - [게임 스트리밍](#게임-스트리밍)
+        * [클라우드 게임 스트리밍](#클라우드-게임-스트리밍)
         * [로컬 게임 스트리밍](#로컬-게임-스트리밍)
-      - [안드로이드 게임하기](#Android-Games)
-      - [게임 에뮬레이터](#game-emulators)
+      - [안드로이드 게임하기](#안드로이드-게임)
+      - [게임 에뮬레이터](#게임-에뮬레이터)
         * [에뮬레이터 프런트엔드](#프런트엔드)
-        * [닌텐도 게임큐브 & Wii](#Nintendo-GameCube--Wii)
-        * [닌텐도 스위치](#Nintendo-Switch)
+        * [닌텐도 게임큐브 & Wii](#닌텐도-게임큐브-wii)
+        * [닌텐도 스위치](#닌텐도-스위치)
         * [닌텐도 64](#닌텐도-64)
-        * [닌텐도 3DS](#닌텐도-3DS)
-        * [슈퍼 닌텐도 엔터테인먼트 시스템(SNES)](#Super-Nintendo-Entertainment-System-SNES)
-        * [Nintendo Entertainment System(NES)](#Nintendo-Entertainment-System)
-        * [게임보이 어드밴스](#Game-Boy-Advance)
-        * [TWO](#TWO)
+        * [닌텐도 3DS](#닌텐도-3ds)
+        * [슈퍼 닌텐도 엔터테인먼트 시스템(SNES)](#슈퍼-닌텐도-엔터테인먼트-시스템snes)
+        * [Nintendo Entertainment System(NES)](#nintendo-entertainment-system-nes)
+        * [게임보이 어드밴스](#게임보이-어드밴스)
+        * [DOS](#dos)
         * [아타리](#아타리)
         * [세가 드림캐스트](#세가-드림캐스트)
-        * [PlayStation Portable](#PlayStation-Portable)
-        * [플레이스테이션 1](#PlayStation-1)
-        * [플레이스테이션 2](#PlayStation-2)
-        * [플레이스테이션 3](#PlayStation-3)
+        * [PlayStation Portable](#playstation-portable)
+        * [플레이스테이션 1](#플레이스테이션-1)
+        * [플레이스테이션 2](#플레이스테이션-2)
+        * [플레이스테이션 3](#플레이스테이션-3)
         * [엑스박스](#엑스박스)
         * [마메](#마메)
-      - [성능 벤치마크](#performance-benchmarks)
+      - [성능 벤치마크](#성능-벤치마크)
 
-2. [웨이퍼 레벨 멀티칩 패키징 기술](https://github.com/mikeroyal/Apple-Silicon-Guide#wafer-level-multi-chip-packaging-technology)
+2. [웨이퍼 레벨 멀티칩 패키징 기술](#웨이퍼-레벨-멀티칩-패키징-기술)
  
-    - [InFO(Integrated Fan-Out) 웨이퍼 레벨 패키징](https://github.com/mikeroyal/Apple-Silicon-Guide#info-integrated-fan-out-wafer-level-packaging)
-    - [기판 위 웨이퍼 칩(CoWoS)](https://github.com/mikeroyal/Apple-Silicon-Guide#chip-on-wafer-on-substrate-cowos)
+    - [InFO(Integrated Fan-Out) 웨이퍼 레벨 패키징](#infointegrated-fan-out-웨이퍼-레벨-패키징)
+    - [기판 위 웨이퍼 칩(CoWoS)](#기판-위-웨이퍼-칩cowos)
 
-3. [Xcode 개발](https://github.com/mikeroyal/Apple-Silicon-Guide#xcode-development)
+3. [Xcode 개발](#xcode-개발)
 
-4. [핵심 ML 개발](https://github.com/mikeroyal/Apple-Silicon-Guide#core-ml-development)
+4. [핵심 ML 개발](#핵심-ml-개발)
 
-5. [금속개발](https://github.com/mikeroyal/Apple-Silicon-Guide#Metal-development)
+5. [금속개발](#금속개발)
 
-6. [비주얼 스튜디오 스튜디오(VSCode) 개발](#vscode-development)
+6. [비주얼 스튜디오 스튜디오(VSCode) 개발](#vscode-개발)
 
-     - [개발자 생산성을 위한 VS 코드 확장](#VS-Code-Extensions-for-Developer-Productivity)
+     - [개발자 생산성을 위한 VS 코드 확장](#개발자-생산성을-위한-vs-코드-확장)
 
-7. [언리얼 엔진 5 개발](#Unreal-Engine-5-Development)
+7. [언리얼 엔진 5 개발](#언리얼-엔진-5-개발)
  
-8. [Unity 개발](#Unity-Development)
+8. [Unity 개발](#unity-개발자-리소스)
  
 9. [블렌더 개발](#블렌더-개발)
 
-10. [가상화](https://github.com/mikeroyal/Apple-Silicon-Guide#virtualization)
+10. [가상화](#가상화)
 
-11. [도커](https://github.com/mikeroyal/Apple-Silicon-Guide#docker)
+11. [도커](#도커)
 
-12. [쿠버네티스](https://github.com/mikeroyal/Apple-Silicon-Guide#kubernetes)
+12. [쿠버네티스](#쿠버네티스)
 
-13. [앤서블](https://github.com/mikeroyal/Apple-Silicon-Guide#ansible)
+13. [앤서블](#앤서블)
 
-14. [애플 실리콘에서 리눅스 실행하기](https://github.com/mikeroyal/Apple-Silicon-Guide#running-linux-on-the-apple-silicon)
-     * [Apple Silicon에서의 Linux 가상화](#Linux-Virtualization-on-Apple-Silicon)
-     * [아사히 리눅스 개발](#Asahi-Linux-개발)
-     * [Fedora Linux 개발](#Fedora-Linux-Development)
-     * [NixOS 리눅스 개발](#NixOS-Linux-개발)
-     * [데비안 리눅스 개발](#Debian-Linux-개발)
-     * [우분투 리눅스 개발](#Ubuntu-Linux-개발)
+14. [애플 실리콘에서 리눅스 실행하기](#애플-실리콘에서-리눅스-실행하기)
+     * [Apple Silicon에서의 Linux 가상화](#apple-silicon에서의-linux-가상화)
+     * [아사히 리눅스 개발](#아사히-리눅스-개발)
+     * [Fedora Linux 개발](#fedora-linux-development)
+     * [NixOS 리눅스 개발](#nixos-linux-development)
+     * [데비안 리눅스 개발](#debian-linux-development)
+     * [우분투 리눅스 개발](#ubuntu-linux-development)
 
-15. [Apple Silicon에서 Windows 10/11 실행](https://github.com/mikeroyal/Apple-Silicon-Guide#running-windows-1011-on-the-apple-silicon)
+15. [Apple Silicon에서 Windows 10/11 실행](#apple-silicon에서-windows-1011-실행)
 
-16. [게임 개발](https://github.com/mikeroyal/Apple-Silicon-Guide#game-development)
+16. [게임 개발](#게임-개발)
 
-17. [전문 오디오/비디오 개발](https://github.com/mikeroyal/Apple-Silicon-Guide#professional-audiovideo-development)
+17. [전문 오디오/비디오 개발](#전문-오디오비디오-개발)
 
-18. [3D 그래픽 및 디자인](https://github.com/mikeroyal/Apple-Silicon-Guide#3d-graphics-and-design)
+18. [3D 그래픽 및 디자인](#3d-그래픽-및-디자인)
 
-19. [신속한 개발](https://github.com/mikeroyal/Apple-Silicon-Guide#swift-development)
+19. [신속한 개발](#신속한-개발)
 
-20. [Objective-C 개발](https://github.com/mikeroyal/Apple-Silicon-Guide#objective-c-development)
+20. [Objective-C 개발](#objective-c-개발)
 
-21. [C/C++ 개발](https://github.com/mikeroyal/Apple-Silicon-Guide#cc-development)
+21. [C/C++ 개발](#cc-개발)
 
 # 애플 실리콘 시작하기
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 - [ARM인가요? Apple Silicon을 지원하는 것으로 보고된 앱](https://doesitarm.com)
 
@@ -383,7 +383,7 @@ Vision Pro 헤드셋의 R1 및 M2 칩
 **M1 칩. 출처: [Apple](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/)**
 
 ### M1 Pro
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/168941797-887664ba-8184-4849-8379-07113032ef40.png">
@@ -399,8 +399,8 @@ Vision Pro 헤드셋의 R1 및 M2 칩
 
 **M1 Pro 칩. 출처: [Apple](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/)**
 
-### M1 맥스
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+### M1-Max
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/168941803-e81f20f6-0bda-4a50-9f2c-7f149b67fbeb.png">
@@ -431,7 +431,7 @@ Vision Pro 헤드셋의 R1 및 M2 칩
 **M1/ M1 Pro/ M1 Max GPU 성능. 출처: [Apple](https://www.apple.com/newsroom/2021/10/introducing-m1-pro-and-m1-max-the-most-powerful-chips-apple-has-ever-built/)**
 
 ### M1 Ultra
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/168941808-d00d49e6-d6d5-4301-b4ac-7a8d4f2552de.png">
@@ -461,15 +461,15 @@ Vision Pro 헤드셋의 R1 및 M2 칩
 
 **M1 Ultra GPU 성능. 출처: [Apple](https://www.apple.com/newsroom/2022/03/apple-unveils-m1-ultra-the-worlds-most-powerful-chip-for-a-personal-computer/)**
 
-###M2
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+### M2
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/210165269-01041deb-4178-40b4-85d7-f84d14ed33c5.png">
 <br />
 </p>
 
-[Apple M2 칩](https://www.apple.com/newsroom/)은 기본 [M1 칩](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**보다 **18% 더 빠른 CPU, 35% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **8코어 CPU, 10코어 GPU(100GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **24GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. M2는 Apple의 새로운 **[MacBook Air](https://www.apple.com/macbook-air/)**, 이전 디자인의 **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** 및 **[M2가 탑재된 iPad Pro ](https://www.apple.com/ipad-pro/)**에서 사용할 수 있습니다.
+[Apple M2 칩](https://www.apple.com/newsroom/)은 기본 [M1 칩](#m1)**보다 **18% 더 빠른 CPU, 35% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **8코어 CPU, 10코어 GPU(100GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **24GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. M2는 Apple의 새로운 **[MacBook Air](https://www.apple.com/macbook-air/)**, 이전 디자인의 **[MacBook Pro 13"](https://www.apple.com/macbook-pro/)** 및 **[M2가 탑재된 iPad Pro ](https://www.apple.com/ipad-pro/)**에서 사용할 수 있습니다.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/45159366/172230405-e6e015e7-5271-43ef-b097-87ca374db5f2.png">
@@ -535,7 +535,7 @@ Vision Pro 헤드셋의 R1 및 M2 칩
   <img src="https://user-images.githubusercontent.com/45159366/216295418-13381e71-6839-42e1-99ae-b22552374348.png">
 </p>
 
-[Apple M2 Pro 칩](https://www.apple.com/newsroom/)은 기본 [M1 Pro 칩](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**보다 **20% 더 빠른 CPU, 30% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **12코어 CPU, 19코어 GPU(200GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **32GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. M2 Pro는 Apple의 **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)** 및 **[Mac mini](https://www.apple.com/mac-mini/)**에서 사용할 수 있습니다.
+[Apple M2 Pro 칩](https://www.apple.com/newsroom/)은 기본 [M1 Pro 칩](#m1-pro)**보다 **20% 더 빠른 CPU, 30% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **12코어 CPU, 19코어 GPU(200GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **32GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. M2 Pro는 Apple의 **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)** 및 **[Mac mini](https://www.apple.com/mac-mini/)**에서 사용할 수 있습니다.
 
   <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/213024040-d9389326-f84d-4702-8056-afe6046dd5fe.png">
@@ -543,7 +543,7 @@ Vision Pro 헤드셋의 R1 및 M2 칩
 
 M2 Pro 칩. 이미지 출처: [Apple](https://www.apple.com/newsroom/)
 
-### M2 맥스
+### M2-Max
 
 [맨 위로 돌아가기](#목차)
 
@@ -551,14 +551,14 @@ M2 Pro 칩. 이미지 출처: [Apple](https://www.apple.com/newsroom/)
   <img src="https://user-images.githubusercontent.com/45159366/216295429-7cb0f4ce-3b83-4c61-b9da-a937eceb2b27.png">
 </p>
 
-[Apple M2 Max 칩](https://www.apple.com/newsroom/)은 현재 Apple의 M2 시리즈 중 가장 강력한 실리콘 칩입니다. M2는 기본 [M1 Max 칩](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**보다 **20% 더 빠른 CPU, 30% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **12코어 CPU, 38코어 GPU(400GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **96GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. M2 Max는 Apple의 **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)** 및 **[Mac mini](https://www.apple.com/mac-mini/)**에서 사용할 수 있습니다.
+[Apple M2 Max 칩](https://www.apple.com/newsroom/)은 현재 Apple의 M2 시리즈 중 가장 강력한 실리콘 칩입니다. M2는 기본 [M1 Max 칩](#m1-max)**보다 **20% 더 빠른 CPU, 30% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **12코어 CPU, 38코어 GPU(400GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **96GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. M2 Max는 Apple의 **[MacBook Pro 14"](https://www.apple.com/macbook-pro-14-and-16/)**, **[MacBook Pro 16"](https://www.apple.com/macbook-pro-14-and-16/)** 및 **[Mac mini](https://www.apple.com/mac-mini/)**에서 사용할 수 있습니다.
 
 
   <p align="center">
   <img src="https://user-images.githubusercontent.com/45159366/213024048-db42c02f-1379-497f-b96a-7446b31b5f69.png">
 </p>
 
-M2 맥스 칩. 이미지 출처: [Apple](https://www.apple.com/newsroom/)
+M2-Max 칩. 이미지 출처: [Apple](https://www.apple.com/newsroom/)
 
 
 ### M2 Ultra
@@ -573,7 +573,7 @@ M2 Ultra는 [Apple의 UltraFusion 아키텍처](https://github.com/mikeroyal/App
 
 M2 Ultra는 **24코어 CPU, 76코어 GPU(800GB/s 메모리 대역폭) 및 32코어 Neural Engine**에서 액세스할 수 있는 최대 **192GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. M2 Ultra는 [Mac Studio](https://www.apple.com/mac-studio/) 및 [Mac Pro](https://www.apple.com/mac-pro/)에서 사용할 수 있습니다.
 
-###M3‌
+### M3
 
 [맨 위로 돌아가기](#목차)
 
@@ -582,7 +582,7 @@ M2 Ultra는 **24코어 CPU, 76코어 GPU(800GB/s 메모리 대역폭) 및 32코�
 </br>
 </p>
 
-**Apple M3 칩**은 기본 [M1 칩](https://github.com/mikeroyal/Apple-Silicon-Guide#M1)**보다 **35% 더 빠른 CPU, 65% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **8코어 CPU(4개의 고성능 및 4개의 에너지 효율), 10코어 GPU(100GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **24GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3) 및 [iMac](https://www.apple.com/shop/buy-mac/imac)에서 사용 가능합니다.
+**Apple M3 칩**은 기본 [M1 칩](#m1)**보다 **35% 더 빠른 CPU, 65% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **8코어 CPU(4개의 고성능 및 4개의 에너지 효율), 10코어 GPU(100GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **24GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3) 및 [iMac](https://www.apple.com/shop/buy-mac/imac)에서 사용 가능합니다.
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/05f0c5e5-76f4-488d-995f-468f81e980e6">
@@ -611,7 +611,7 @@ M3 칩 제품군 신경 엔진 성능. 이미지 크레디트: 애플
 </br>
 </p>
 
-**Apple M3 Pro 칩**은 기본 [M1 Pro 칩](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Pro)**보다 **30% 더 빠른 CPU, 40% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **12코어 CPU(고성능 6개, 에너지 효율 6개), 18코어 GPU(150GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **36GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-pro) 및 [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-pro)에서 사용 가능합니다.
+**Apple M3 Pro 칩**은 기본 [M1 Pro 칩](#m1-pro)**보다 **30% 더 빠른 CPU, 40% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **12코어 CPU(고성능 6개, 에너지 효율 6개), 18코어 GPU(150GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **36GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-pro) 및 [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-pro)에서 사용 가능합니다.
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/d588605b-c665-4949-aa1c-ee721d68b0d4">
@@ -619,7 +619,7 @@ M3 칩 제품군 신경 엔진 성능. 이미지 크레디트: 애플
 M3 Pro 칩 아키텍처. 이미지 크레디트: 애플
 </p>
 
-### M3 맥스
+### M3-Max
 
 [맨 위로 돌아가기](#목차)
 
@@ -628,7 +628,7 @@ M3 Pro 칩 아키텍처. 이미지 크레디트: 애플
 </br>
 </p>
 
-**Apple M3 Max 칩**은 기본 [M1 Max 칩](https://github.com/mikeroyal/Apple-Silicon-Guide#M1-Max)**보다 **80% 더 빠른 CPU, 50% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **16코어 CPU(고성능 12개, 에너지 효율 4개), 40코어 GPU(400GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **128GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-max) 및 [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-max)에서 사용 가능합니다.
+**Apple M3 Max 칩**은 기본 [M1 Max 칩](#m1-max)**보다 **80% 더 빠른 CPU, 50% 더 빠른 GPU, 40% 더 빠른 신경 엔진을 갖추고 있습니다. **16코어 CPU(고성능 12개, 에너지 효율 4개), 40코어 GPU(400GB/s 메모리 대역폭) 및 16코어 Neural Engine**에서 액세스할 수 있는 최대 **128GB**의 고대역폭, 저지연 통합 메모리로 구성할 수 있습니다. [MacBook Pro 14”](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-m3-max) 및 [MacBook Pro 16”](https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-m3-max)에서 사용 가능합니다.
 
 <p align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/5410b9e9-a150-4425-b285-e91222c06ca5">
@@ -930,7 +930,7 @@ Apple Silicon으로 구동되는 장치.
 
 ### Productivity & Workflow Apps
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 [Signal](https://www.signal.org/) is a state-of-the-art end-to-end encryption (powered by the open source [Signal Protocol](https://github.com/signalapp)) messaging app that keeps your conversations secure. 
 
@@ -1293,7 +1293,7 @@ Infuse Video Player
 
 ## Secure & Privacy Focused Web Browsers
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 **Note: While [Safari](https://www.apple.com/safari/) is a great browser that comes included on all Apple devices. It may not have all the extensions you need for your workflow so I recommend checking out the several great options below.**
 
@@ -1347,7 +1347,7 @@ Infuse Video Player
 
 ### Privacy & Security Focused Browser extensions
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 [UBlock Origin](https://ublockorigin.com/) is a free and open-source, cross-platform browser extension for content filtering primarily aimed at neutralizing privacy invasion in an efficient, user-friendly method.
 
@@ -1410,7 +1410,7 @@ Infuse Video Player
  
 ### Privacy-focused Search Engines
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
  * [Brave Search](https://brave.com/search/)
  
@@ -1486,7 +1486,7 @@ Infuse Video Player
 
 ## Microsoft Office Alternatives
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 [OnlyOffice](https://www.onlyoffice.com/) is a secure offline/online office suite highly compatible with MS Office formats for Windows, Mac and Linux.
 
@@ -1513,7 +1513,7 @@ Infuse Video Player
 </p>
 
 ## Universal Control
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 [Universal Control](https://www.apple.com/newsroom/2021/10/macos-monterey-is-now-available/) is a software feature for Apple devices such as MacBooks and iPads that makes it possible to use a single keyboard, mouse, and trackpad with your Mac and iPad as long as they're side-by-side. Much like SideCar, there are limited settings for Universal Control. Without a second device connected, you can go to System Preferences -> Displays and click Advanced to pull up Universal Control settings. If a device is already connected, you'll have to go to Displays -> Display Settings -> Advanced.
 
@@ -1545,7 +1545,7 @@ You must also have supported devices. Apple says supported devices include:
 
 ## Stage Manager
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 Stage Manager is an iPadOS feature that provides better support for external displays. Stage Manager allows the iPad Air(**M1 chip**) and iPad Pro(**M1 chip**):
 
@@ -1562,7 +1562,7 @@ Stage Manager is an iPadOS feature that provides better support for external dis
 
 ## File Sync/Transfer
 
-[Back to Top](#table-of-contents)
+[Back to Top](#목차)
 
 [Syncthing](https://syncthing.net/) is a continuous file synchronization program. It synchronizes files between two or more computers in real time.
 
@@ -1598,7 +1598,7 @@ Stage Manager is an iPadOS feature that provides better support for external dis
 
 ## Replacing iCloud with Nexcloud
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/218290801-af7efb7b-fd9e-452e-a18e-72e643bdf044.png">
@@ -1682,7 +1682,7 @@ Nexcloud Hub
 
 ## Adding External Storage
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 [Sabrent XTRM Q](https://www.sabrent.com/rocket-xtrmq/) is a perfect SSD for all your creative pursuits: high-res photos, videos, sound files, etc. It's perfect for saving, creating and editing available in 500GB, 1TB, 2TB, and 4TB drives.
 
@@ -1712,9 +1712,9 @@ Nexcloud Hub
  * [LaCie Mobile Drive](https://www.lacie.com/products/mobile-drive/)
  * [CalDigit AV Pro 2](https://www.caldigit.com/av-pro-2/)
 
-## Backups
+## 백업
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) is an enterprise backup solution for backing up and restoring VMs, containers, and physical hosts. The open-source solution supports incremental backups, deduplication, Zstandard compression, and authenticated encryption.
 
@@ -1742,7 +1742,7 @@ Nexcloud Hub
 
 ## SSD Drive Health/Data Recovery
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 - [How to create a bootable installer for macOS](https://support.apple.com/en-us/HT201372)
 
@@ -1774,7 +1774,7 @@ MacOS Recovery Options
 
 ## Checking Battery Health
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 [coconutBattery](https://www.coconut-flavour.com/coconutbattery/) is a tool that keeps you aware of your current battery health. It shows you live information about the battery quality in your Mac, iPhone and iPad.
 
@@ -1827,7 +1827,7 @@ Checking Battery on your iOS device.
 
 ## Charging/Powerbanks
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great battery life. It's always good to have a portable USB-C powerbank for charging your device when you're traveling, conferences, etc..
 
@@ -1862,7 +1862,7 @@ While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great batter
 
 ### USB-C Adapters
 
-[Back to Top](#table-of-contents)
+[Back to Top](#목차)
 
  * [JSAUX USB-C to USB Adapter (2 Pack)](https://www.amazon.com/JSAUX-Adapter-Compatible-MacBook-Samsung/dp/B07BS8SRWH/)
 
@@ -1876,7 +1876,7 @@ While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great batter
 
 ### USB-C Fast Charging Cables
 
-[Back to Top](#table-of-contents)
+[Back to Top](#목차)
 
  * [Apple Thunderbolt 4 (USB‑C) Pro Cable (1 m) | Apple](https://www.apple.com/shop/product/MU883AM/A/thunderbolt-4-usb%E2%80%91c-pro-cable-1-m)
    
@@ -1901,7 +1901,7 @@ While the Apple Silicon Macbooks, iPhones, iPads, and Air Pods have great batter
 
 ## MacOS/iOS Security Hardening
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 ### Resources
 
@@ -1954,7 +1954,7 @@ File Vault
 
 ### MacOS Forensic Analysis
 
-[Back to The Top](#table-of-contents)
+[Back to The Top](#목차)
 
 **MacOS Forensic Analysis** is the process of building in-depth digital forensics knowledge of MacOS and iOS systems.
  - [SANS FOR518: Mac and iOS Forensic Analysis and Incident Response Course](https://www.sans.org/cyber-security-courses/mac-and-ios-forensic-analysis-and-incident-response/)
@@ -1968,7 +1968,7 @@ File Vault
 
 ### VPN
 
-[Back to The Top](#table-of-contents)
+[Back to The Top](#목차)
 
 **VPN (Virtual Private Network)** is a service that encrypts your internet traffic on unsecured networks to protect your online identity, hide your IP address, and shield your online data from third parties. 
 
@@ -1984,7 +1984,7 @@ File Vault
 
 ### SSH
 
-[Back to The Top](#table-of-contents)
+[Back to The Top](#목차)
 
 **Secure Shell Protocol (SSH)** is a cryptographic network protocol for operating network services securely over an unsecured network.
 
@@ -2001,7 +2001,7 @@ File Vault
 
 ### Firewall Filtering
 
-[Back to The Top](#table-of-contents)
+[Back to The Top](#목차)
 
 **Firewall** is a system that provides network security by filtering incoming and outgoing network traffic based on a set of user-defined rules. In general, the purpose of a firewall is to reduce or eliminate the occurrence of unwanted network communications while allowing all legitimate communication to flow freely.
 
@@ -2014,7 +2014,7 @@ File Vault
 
 ### MFA
 
-[Back to The Top](#table-of-contents)
+[Back to The Top](#목차)
 
 **Multifactor Authentication (MFA)** is when you sign into your online accounts - a process we call "authentication" - you're proving to the service that you are who you say you are. Traditionally that's been done with a username and a password.
 
@@ -2030,7 +2030,7 @@ File Vault
 
 ### Disk Image Creation Tools
 
-[Back to Top](#table-of-contents)
+[Back to Top](#목차)
 
 **Disk Image Creation** - is a process of Data backup and recovery where creating an image ensures that the original data on the disk is preserved. With an exact copy, you can extract the data from the disk image anytime you need.
 
@@ -2039,7 +2039,7 @@ File Vault
 
 ### Evidence Collection
 
-[Back to Top](#table-of-contents)
+[Back to Top](#목차)
 
  **Evidence Collection** - is a set of protocols that apply to both pre-collection and post-collection evidence. This process helps with Preserving & Collecting Evidence making sure the evidence is not destroyed or devalued as a source of information.
 
@@ -2053,7 +2053,7 @@ File Vault
 
 ### Incident Management
 
-[Back to Top](#table-of-contents)
+[Back to Top](#목차)
 
 **Incident Management** - is the process used by development and IT Operations teams to respond to an unplanned event or service interruption and restore the service to its operational state.
 
@@ -2073,7 +2073,7 @@ File Vault
 
 ### Sandboxing/Reversing Tools
 
-[Back to Top](#table-of-contents)
+[Back to Top](#목차)
 
 **Sandboxing** - is a security practice in which you use an isolated environment, or a "sandbox," for testing. Within the sandbox you run code, analyze the code in a safe, isolated environment without affecting the application, system or platform.
 
@@ -2097,7 +2097,7 @@ File Vault
 * [Virustotal](https://www.virustotal.com) - Free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners.
 
 # Gaming
-[Back to the Top](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[Back to the Top](#목차)
 
 <p align="center">
   <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/0a5dc137-c500-420e-8296-d2d25e97feb0">
@@ -2123,7 +2123,7 @@ File Vault
  
 ## MacOS Game Mode
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
  
 **[Game Mode](https://www.apple.com/newsroom/2023/06/macos-sonoma-brings-new-capabilities-for-elevating-productivity-and-creativity/)** is a tool enabled in **macOS 14**, it prioritizes CPU and GPU power for the game title you're running. Optimizing your gaming experience across the board with smoother and more consistent frame rates. For example, Game Mode makes gaming on Mac more immersive by lowering audio latency with AirPods, and significantly reducing input latency with popular game controllers like those for Xbox and PlayStation by doubling the Bluetooth sampling rate. 
@@ -2138,7 +2138,7 @@ File Vault
 
 ## Game Porting Toolkit
 
-[Back to the Top](#table-of-contents)
+[Back to the Top](#목차)
 
 <h3 align="center">
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/375b3bc6-3a9a-4a71-90a1-8181254260ff">
@@ -2464,7 +2464,7 @@ Steam 베타에 등록하면 문제가 해결될 수 있습니다.
 <br />
 </p>
 
-### MacOS용 크로스오버
+### MacOS용 CrossOver
 
 [맨 위로 돌아가기](#목차)
 
@@ -2946,7 +2946,7 @@ PS 5 DualSense™ 컨트롤러
 </p>
 
  
- ### 유용한 OBS Studio 타사 플러그인 및 테마.
+### 유용한 OBS Studio 타사 플러그인 및 테마
  
   * **[OBS 스튜디오 테마](https://obsproject.com/forum/resources/categories/themes.10/)**
  
@@ -2990,7 +2990,7 @@ PS 5 DualSense™ 컨트롤러
   * **[VNC 소스](https://github.com/norihiro/obs-vnc)** 플러그인; 소스로 작동하는 VNC 뷰어입니다.
   * **[웹소켓](https://github.com/Palakis/obs-websocket)** 플러그인; [StreamControl](https://play.google.com/store/apps/details?id=dev.t4ils.obs_remote&hl=en)과 호환되는 WebSocket을 통해 OBS Studio를 원격 제어합니다.
 
-## 불화
+## Discord
 
 [맨 위로 돌아가기](#목차)
 
@@ -3034,7 +3034,7 @@ PS 5 DualSense™ 컨트롤러
 
   * M1
   * M1 Pro
-  * M1 맥스
+  * M1-Max
   * M1 Ultra
   *M2
 
@@ -3055,7 +3055,7 @@ PS 5 DualSense™ 컨트롤러
  <img src="https://user-images.githubusercontent.com/45159366/112692999-14ea9800-8e3d-11eb-964a-6bee4e665900.png">
 </p>
 
- ### 영웅적인 게임 실행기
+### Heroic Game Launcher
 [맨 위로 돌아가기](#목차)
 
 [Heroic Game Launcher](https://heroicgameslauncher.com/)는 Linux, Windows 및 MacOS용 오픈 소스 게임 런처입니다(Crossover를 사용하는 네이티브 및 Windows 게임용). Epic Games Store 및 GOG.com Store의 게임 출시를 지원합니다.
@@ -3064,7 +3064,7 @@ PS 5 DualSense™ 컨트롤러
  <img src="https://github.com/mikeroyal/Apple-Silicon-Guide/assets/45159366/95b64ae6-1bf5-494d-a2bf-0a4e16786270">
 </p>
 
- ### 에픽게임즈 스토어
+### Epic Games Store
 [맨 위로 돌아가기](#목차)
 
 [Epic Games Store](https://www.epicgames.com/store/)는 Epic Games에서 운영하는 Microsoft Windows 및 macOS용 디지털 비디오 게임 매장입니다.
@@ -3080,7 +3080,7 @@ PS 5 DualSense™ 컨트롤러
 
 <img src="https://user-images.githubusercontent.com/45159366/189614458-d51a15cb-d02d-4b1f-9e77-e712dcdb1d73.png">
 
-### 기원
+### Origin
 [맨 위로 돌아가기](#목차)
  
 [MacOS용 Origin](https://www.ea.com/origin-for-mac#)은 Electronic Arts에서 개발한 온라인 게임, 디지털 배포 및 디지털 권한 관리(DRM) 플랫폼으로, 사용자가 PC 및 모바일 플랫폼용 게임을 인터넷에서 구매하고 Origin 클라이언트(이전의 EA Download Manager, EA Downloader 및 EA Link)를 통해 다운로드할 수 있습니다.
@@ -3105,7 +3105,7 @@ PS 5 DualSense™ 컨트롤러
 
 <img src="https://user-images.githubusercontent.com/45159366/189614466-476e0c4e-bab9-44bd-86c4-8aeadd739b63.png">
 
-### 유비소프트 커넥트
+### Ubisoft Connect
 
 [맨 위로 돌아가기](#목차)
 
@@ -3120,7 +3120,7 @@ PS 5 DualSense™ 컨트롤러
 
 <img src="https://user-images.githubusercontent.com/45159366/189614471-422cbad8-1ae7-4f06-ad81-7f3b68550569.png">
 
-### GOG 갤럭시
+### GOG Galaxy
 
 [맨 위로 돌아가기](#목차)
 
@@ -3132,7 +3132,7 @@ PS 5 DualSense™ 컨트롤러
  <img src="https://user-images.githubusercontent.com/45159366/200258282-da3cd773-c1c9-46d9-af12-aa54428be4ec.png">
 </p>
 
-### Itch.io 스토어
+### Itch.io Store
 
 [맨 위로 돌아가기](#목차)
 
@@ -3142,7 +3142,7 @@ PS 5 DualSense™ 컨트롤러
   <img src="https://user-images.githubusercontent.com/45159366/199429576-278a8604-7f76-4a41-abeb-84d03865daeb.png">
 </p>
 
-### Mac의 XIV
+### XIV on Mac
 
 [맨 위로 돌아가기](#목차)
 
@@ -3155,7 +3155,7 @@ PS 5 DualSense™ 컨트롤러
 
 ## 게임 스트리밍
 
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 ### 클라우드 게임 스트리밍
 
@@ -3328,7 +3328,7 @@ PS 5 DualSense™ 컨트롤러
       카트리지 UI
 </p>
 
-### 닌텐도 게임큐브 및 Wii
+### 닌텐도 게임큐브 & Wii
 
 [Dolphin](https://dolphin-emu.org)은 최신 Nintendo 비디오 게임 콘솔인 GameCube와 Wii를 위한 에뮬레이터입니다. 이를 통해 PC 게이머는 모든 PC 컨트롤러와의 호환성, 터보 속도, 네트워크 멀티플레이어 등 여러 가지 향상된 기능을 통해 이 두 콘솔의 게임을 풀 HD(1080p)로 즐길 수 있습니다.
 
@@ -3371,11 +3371,17 @@ PS 5 DualSense™ 컨트롤러
 
 [bsnes](https://github.com/bsnes-emu/bsnes)는 성능, 기능 및 사용 편의성에 중점을 둔 Super Nintendo(SNES) 에뮬레이터입니다.
 
+### Nintendo Entertainment System (NES)
+
+[맨 위로 돌아가기](#목차)
+
+[FCEUX](https://github.com/TASVideos/fceux)와 [Nestopia](https://github.com/0ldsk00l/nestopia)는 NES/패미컴 에뮬레이션을 위한 대표적인 오픈 소스 프로젝트입니다.
+
 ### 게임보이 어드밴스
 
 [mGBA](https://mgba.io/)는 Game Boy Advance 게임을 실행하기 위한 새로운 에뮬레이터입니다. 기존의 많은 Game Boy Advance 에뮬레이터보다 더 빠르고 정확할 뿐만 아니라 다른 에뮬레이터에 부족한 기능을 추가하는 것을 목표로 합니다.
 
-### 중
+### DOS
 
 [Boxer](https://boxer.thec0de.com/)는 Mac에 적합한 DOSBox 게임 에뮬레이터 프런트엔드입니다.
 
@@ -3389,15 +3395,14 @@ PS 5 DualSense™ 컨트롤러
 
 [Hatari](https://hatari.tuxfamily.org/)는 SDL 라이브러리에서 지원하는 Linux, BSD, MacOS, Windows 및 기타 시스템용 Atari ST/STE/TT/Falcon 에뮬레이터입니다. Atari ST는 1985년 Atari가 처음 출시한 16/32비트 컴퓨터 시스템입니다.
 
-### 드림캐스트 셔플
+### 세가 드림캐스트
 
 [Flycast](https://github.com/flyinghead/flycast)는 reicast에서 파생된 멀티 플랫폼 Sega Dreamcast, Naomi 및 Atomiswave 에뮬레이터입니다.
 
 
 [Redream](https://redream.io/)은 Dreamcast 에뮬레이터로, 좋아하는 Dreamcast 게임을 고화질(1080p 또는 4k)로 플레이할 수 있습니다.
 
-### PlayStation Portable
-
+### PlayStation Portable
 [PPSSPP](https://www.ppsspp.org/)은 풀 HD 해상도로 게임을 실행할 수 있는 PSP 에뮬레이터입니다. 원래 PSP의 작은 화면용으로 제작되었기 때문에 너무 흐릿한 텍스처를 고급화할 수도 있습니다.
 
 ### 플레이스테이션 1
@@ -3429,7 +3434,7 @@ PS 5 DualSense™ 컨트롤러
 [MAME](https://www.mamedev.org/)은 아케이드 머신 에뮬레이터입니다.
 
 ## 성능 벤치마크
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 [Geekbench 6](https://www.geekbench.com/download/)은 버튼을 눌러 시스템 성능을 측정하는 크로스 플랫폼 벤치마크입니다.
 
@@ -3459,7 +3464,7 @@ PS 5 DualSense™ 컨트롤러
 
 [맨 위로 돌아가기](#목차)
 
-## InFO(통합 팬아웃) 웨이퍼 레벨 패키징
+## InFO(Integrated Fan-Out) 웨이퍼 레벨 패키징
 
 [맨 위로 돌아가기](#목차)
 
@@ -3527,7 +3532,7 @@ PS 5 DualSense™ 컨트롤러
 </p>
 
 # Xcode 개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/141201793-f31f4899-7317-49a7-808b-6e551df23bf9.png">
@@ -3585,7 +3590,7 @@ Xcode 14에서 SwiftUI를 사용하여 개발
 [TestFlight](https://developer.apple.com/testflight/)는 App Store에 앱을 출시하기 전에 앱과 App Clip을 테스트하고 귀중한 피드백을 수집하도록 사용자를 쉽게 초대할 수 있는 도구입니다. 이메일 주소만 사용하거나 공개 링크를 공유하여 최대 10,000명의 테스터를 초대할 수 있습니다.
 
 # 핵심 ML 개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/132140794-0d4bf654-0884-4068-b5bb-eaee36c36797.png">
@@ -3670,7 +3675,7 @@ Xcode 14에서 SwiftUI를 사용하여 개발
 [AppCode](https://www.jetbrains.com/objc/)에서는 코드 품질을 지속적으로 모니터링하고 있습니다. 오류와 냄새에 대해 경고하고 자동으로 해결하기 위한 빠른 수정 사항을 제안합니다. AppCode는 Objective-C, Swift, C/C++에 대한 다양한 코드 검사와 기타 지원되는 언어에 대한 다양한 코드 검사를 제공합니다.
 
 # 금속개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/172255611-762a151f-6891-44b2-a0cf-657005e317ff.png">
@@ -4369,7 +4374,7 @@ Unity 지형 프로젝트. 출처: [유니티](https://blog.unity.com/technology
 
 
 # 가상화
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/139736405-f98ea7e6-899c-4140-ba16-efd8caa1d856.png">
@@ -4518,7 +4523,7 @@ Mac용 패러렐즈 데스크톱
 [AMD MxGPU](https://www.amd.com/en/graphics/workstation-virtual-graphics)는 하드웨어 기반 가상화 GPU 솔루션으로, 업계 표준 SR-IOV(단일 루트 I/O 가상화) 기술을 기반으로 구축되었으며 물리적 GPU당 여러 명의 가상화된 사용자가 원격으로 작업할 수 있도록 해줍니다.
 
 # 도커
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/113521410-2e32c900-954e-11eb-8311-065fa0099546.png">
@@ -4632,7 +4637,7 @@ Mac용 패러렐즈 데스크톱
 
 
 # 쿠버네티스
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/95383873-a884d800-08a0-11eb-8eaf-57af5b119f56.png">
@@ -4822,7 +4827,7 @@ Mac용 패러렐즈 데스크톱
 [Platform9 Managed Kubernetes(PMK)](https://platform9.com/managed-kubernetes/)는 데이터 센터, 퍼블릭 클라우드 또는 엣지 등 모든 환경에서 99.9% SLA로 완전히 자동화된 2일 차 운영을 보장하는 서비스형 Kubernetes입니다.
 
 # 앤서블
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/113448802-62bd4e00-93b1-11eb-9114-419e758af23b.png">
@@ -4913,8 +4918,8 @@ Mac용 패러렐즈 데스크톱
 
 [OpenShift Hive](https://github.com/openshift/hive)는 Kubernetes/OpenShift 위에서 서비스로 실행되는 연산자입니다. Hive 서비스를 사용하여 OpenShift 4 클러스터의 초기 구성을 프로비저닝하고 수행할 수 있습니다.
 
-# Apple Silicon에서 Linux 실행
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+## 애플 실리콘에서 리눅스 실행하기
+[맨 위로 돌아가기](#목차)
 
 ### Apple Silicon에서의 Linux 가상화
 
@@ -5627,7 +5632,7 @@ For more general information about Linux on Apple Silicon Macs, refer to the [As
 
 이미지 출처: [Alyssa Rosenzweig](https://social.treehouse.systems/@alyssa)
 
-### 우분투 개발
+### Ubuntu Linux Development
 
 * **[Ubuntu Apple Silicon 이미지](https://github.com/tobhe/ubuntu-asahi)**
 
@@ -5695,7 +5700,7 @@ cd ubuntu-asahi
 
 
 # Apple Silicon에서 Windows 10/11 실행
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 [![Mac의 Windows 11 ARM? Parallels 대 VMware 대 UTM](https://ytcards.demolab.com/?id=lsik-eGJIog&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Mac의 Windows 11 ARM? Parallels 대 VMware 대 UTM")](https://www.youtube.com/watch?v=lsik-eGJIog)
 [![VMware가 마침내 Mac에서 게임을 할 수 있게 됐습니다. 그리고.. 무료인가요?](https://ytcards.demolab.com/?id=Mqn1yoV_OW4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "VMware가 마침내 Mac에서 게임을 할 수 있게 됐습니다. 그리고.. 무료인가요?")](https://www.youtube.com/watch?v=Mqn1yoV_OW4)
@@ -5751,7 +5756,7 @@ Mac용 패러렐즈 데스크톱
 </h3>
 
 # 게임 개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/97361059-45151700-185c-11eb-9d12-dae51c79eb8a.png">
@@ -5920,7 +5925,7 @@ Mac용 패러렐즈 데스크톱
 [Simula](https://github.com/SimulaVR/Simula)는 Godot 위에서 실행되는 Linux용 VR 창 관리자입니다. 설치하는데 1분도 채 걸리지 않습니다. Simula는 Linux 드라이버(예: HTC Vive, HTC Vive Pro, Valve Index)가 장착된 SteamVR 헤드셋과 공식적으로 호환됩니다. 또한 Monado 드라이버(예: North Star, OSVR HDK 및 PSVR)가 있는 OpenXR 헤드셋에 실험적인 지원을 추가했습니다. 어떤 사람들은 OpenHMD를 통해 Simula를 실행하기 위해 Oculus Rift S를 구입했습니다([여기 참조](https://github.com/OpenHMD/OpenHMD/issues/225#issuecomment-638454156)).
 
 # 전문 오디오/비디오 개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/100922475-caf73400-3492-11eb-88ac-d0976f3057d3.png">
@@ -6039,7 +6044,7 @@ Mac용 패러렐즈 데스크톱
 [Audacity](https://www.audacityteam.org/)는 Windows, Mac OS X, GNU/Linux 및 기타 운영 체제를 위한 사용하기 쉬운 멀티 트랙 오디오 편집기 및 녹음기입니다. 자원봉사자 그룹에 의해 오픈 소스로 개발되었으며 무료로 제공됩니다. 놀라운 지원 커뮤니티.
 
 # 3D 그래픽 및 디자인
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/97116104-27a74800-16b8-11eb-9556-bdb90ba45ce7.png">
@@ -6244,7 +6249,7 @@ Mac용 패러렐즈 데스크톱
 [Sketchfab](https://sketchfab.com/tags/open-source)에서는 무료로 보고, 구매하고, 다운로드할 수 있는 오픈 소스 3D 모델을 제공합니다.
 
 # 신속한 개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/93719675-03949c00-fb39-11ea-8f81-bf4cd544c17f.png">
@@ -6343,12 +6348,14 @@ Xcode 12에서 SwiftUI를 사용하여 개발
 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa)는 ReactiveSwift 위에 구축된 Cocoa 프레임워크에 대한 반응형 확장입니다.
 
 # 오브젝티브-C 개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/121821278-e6ff3d80-cc4c-11eb-9a57-c7aa13b88b30.png">
 </p>
 
+
+## Objective-C 개발
 
 ## Objective-C 학습 리소스
 
@@ -6395,7 +6402,7 @@ Xcode 12에서 SwiftUI를 사용하여 개발
 [Nimbus](https://github.com/jverkoey/nimbus)는 문서화만큼 빠르게 기능 세트가 성장하는 iOS 프레임워크입니다.
 
 # C/C++ 개발
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/115297894-961e0d80-a111-11eb-81c3-e2bd2ac9a7cd.png">
@@ -6541,6 +6548,6 @@ Xcode 12에서 SwiftUI를 사용하여 개발
 
 
 ## 라이센스
-[맨 위로 돌아가기](https://github.com/mikeroyal/Apple-Silicon-Guide#table-of-contents)
+[맨 위로 돌아가기](#목차)
 
 [Creative Commons Attribution 4.0 International(CC BY 4.0) 공중 라이선스](https://creativecommons.org/licenses/by/4.0/)에 따라 배포됩니다.
